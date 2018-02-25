@@ -25,7 +25,6 @@ LIBS:RF_Bluetooth
 LIBS:Relay
 LIBS:regul
 LIBS:references
-LIBS:pspice
 LIBS:Power_Management
 LIBS:powerint
 LIBS:power
@@ -86,7 +85,6 @@ LIBS:driver_gate
 LIBS:Display
 LIBS:Diode
 LIBS:digital-audio
-LIBS:device
 LIBS:Decawave
 LIBS:dc-dc
 LIBS:cypress
@@ -103,12 +101,13 @@ LIBS:analog_devices
 LIBS:Altera
 LIBS:adc-dac
 LIBS:ac-dc
+LIBS:device
 LIBS:HILTOP_Motherboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 8
+Sheet 4 9
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"
@@ -152,17 +151,6 @@ F 2 "KiCAD_PCB_Lib:CME_XXXX_S3C_PSU_MODULE" H 1650 6200 50  0001 C CNN
 F 3 "DOCUMENTATION" H 1800 6300 50  0001 C CNN
 F 4 "131-001" H 1950 6700 60  0001 C CNN "Devtank"
 	1    1950 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND_ISO3 #PWR0186
-U 1 1 589A9056
-P 3200 7000
-F 0 "#PWR0186" H 3200 6750 50  0001 C CNN
-F 1 "GND_ISO3" H 3200 6850 50  0000 C CNN
-F 2 "" H 3200 7000 50  0000 C CNN
-F 3 "" H 3200 7000 50  0000 C CNN
-	1    3200 7000
 	1    0    0    -1  
 $EndComp
 Text HLabel 3150 2150 0    60   Input ~ 0
@@ -377,17 +365,6 @@ F 3 "" H 5100 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3_ISO3 #PWR0198
-U 1 1 589A906E
-P 3200 6400
-F 0 "#PWR0198" H 3200 6250 50  0001 C CNN
-F 1 "+3V3_ISO3" H 3200 6540 50  0000 C CNN
-F 2 "" H 3200 6400 50  0000 C CNN
-F 3 "" H 3200 6400 50  0000 C CNN
-	1    3200 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L ADuM1401 U15
 U 1 1 589A906F
 P 4450 4800
@@ -563,18 +540,6 @@ F 2 "" H 6000 6400 50  0000 C CNN
 F 3 "" H 6000 6400 50  0000 C CNN
 	1    6000 6400
 	1    0    0    -1  
-$EndComp
-$Comp
-L R R78
-U 1 1 589A947C
-P 4450 3250
-F 0 "R78" V 4530 3250 50  0000 C CNN
-F 1 "0R" V 4450 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4380 3250 50  0001 C CNN
-F 3 "" H 4450 3250 50  0000 C CNN
-F 4 "101-005" V 4450 3250 60  0001 C CNN "Devtank"
-	1    4450 3250
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6350 1200 6350 1550
@@ -834,26 +799,6 @@ Wire Wire Line
 	3350 3950 3250 3950
 Wire Wire Line
 	3250 3950 3250 4050
-Wire Wire Line
-	4600 3250 5050 3250
-Wire Wire Line
-	5050 3250 5050 2850
-Connection ~ 5050 2850
-Wire Wire Line
-	4300 3250 3900 3250
-Wire Wire Line
-	3900 3250 3900 2850
-Connection ~ 3900 2850
-Wire Wire Line
-	4600 5700 5050 5700
-Wire Wire Line
-	5050 5700 5050 5300
-Connection ~ 5050 5300
-Wire Wire Line
-	4300 5700 3900 5700
-Wire Wire Line
-	3900 5700 3900 5300
-Connection ~ 3900 5300
 $Comp
 L C C108
 U 1 1 593A8BB8
@@ -913,18 +858,6 @@ F 3 "" H 5350 3950 50  0000 C CNN
 F 4 "105-002" H 5350 3950 60  0001 C CNN "Devtank"
 	1    5350 3950
 	0    -1   -1   0   
-$EndComp
-$Comp
-L R R72
-U 1 1 593A9C0A
-P 4450 5700
-F 0 "R72" V 4530 5700 50  0000 C CNN
-F 1 "0R" V 4450 5700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4380 5700 50  0001 C CNN
-F 3 "" H 4450 5700 50  0000 C CNN
-F 4 "101-005" V 4450 5700 60  0001 C CNN "Devtank"
-	1    4450 5700
-	0    1    1    0   
 $EndComp
 $Comp
 L C C105
@@ -1016,4 +949,26 @@ Wire Wire Line
 	3850 6850 3850 7050
 Wire Wire Line
 	1050 6850 1050 7050
+$Comp
+L GND_ISO3 #PWR0186
+U 1 1 589A9056
+P 3200 7000
+F 0 "#PWR0186" H 3200 6750 50  0001 C CNN
+F 1 "GND_ISO3" H 3200 6850 50  0000 C CNN
+F 2 "" H 3200 7000 50  0000 C CNN
+F 3 "" H 3200 7000 50  0000 C CNN
+	1    3200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3_ISO3 #PWR0198
+U 1 1 589A906E
+P 3200 6400
+F 0 "#PWR0198" H 3200 6250 50  0001 C CNN
+F 1 "+3V3_ISO3" H 3200 6540 50  0000 C CNN
+F 2 "" H 3200 6400 50  0000 C CNN
+F 3 "" H 3200 6400 50  0000 C CNN
+	1    3200 6400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

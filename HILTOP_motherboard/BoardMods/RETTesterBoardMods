@@ -3,8 +3,8 @@ Mod List for RET Tester Motherboard Issue 1
 
 ADC Biasing
 
-R122 = 1.5K
-R75 = 3K3
+R122 = 1.5K  -Done
+R75 = 3K3    -Done
 
 5V Rail
 100uF electrolytic 
@@ -12,26 +12,27 @@ R75 = 3K3
 3V3 Rail
 100uF electrolytic 
 
-RET Power = add additonal output capacitance to DC-DC circuit, 220uF (100uF minimum or 2 x 100uF pads)
+RET Power = add additonal output capacitance to DC-DC circuit, 220uF (100uF minimum or 2 x 100uF pads)  - DONE
 
 
 I2C Bus 0
-2 x 4.7K Pull ups required
+2 x 4.7K Pull ups required`	-Done
 
 U2 (USB bus power)
-4 x 10K Pull-ups to 3.3v
+4 x 10K Pull-ups to 3.3v     -Done
 
 Rasp Pi 
-VBatt = Power from 5V rail instead of 3.3V
+VBatt = Power from 5V rail instead of 3.3V     -Done
 
 Adj. PSU
-C60 = 100nF (to help with noise)
-R58 = 30K
-R59 = 18K
-Add additional caps, C56, 58, 179 = 2.2uF - Farnell 1797017
+C60 = 100nF (to help with noise)			--DOne
+R58 = 30K				--DOne
+R59 = 18K				--Done
+
+Add additional caps, C56, 58, 179 = 2.2uF - Farnell 1797017			-done
 
 
 RS485
-Remove R78 and R72 to enable isolation
+Remove R78 and R72 to enable isolation			--Done
 
 

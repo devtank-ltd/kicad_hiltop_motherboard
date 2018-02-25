@@ -25,7 +25,6 @@ LIBS:RF_Bluetooth
 LIBS:Relay
 LIBS:regul
 LIBS:references
-LIBS:pspice
 LIBS:Power_Management
 LIBS:powerint
 LIBS:power
@@ -86,7 +85,6 @@ LIBS:driver_gate
 LIBS:Display
 LIBS:Diode
 LIBS:digital-audio
-LIBS:device
 LIBS:Decawave
 LIBS:dc-dc
 LIBS:cypress
@@ -103,12 +101,13 @@ LIBS:analog_devices
 LIBS:Altera
 LIBS:adc-dac
 LIBS:ac-dc
+LIBS:device
 LIBS:HILTOP_Motherboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"
@@ -994,4 +993,8 @@ Wire Wire Line
 	6850 3950 6300 3950
 Wire Wire Line
 	6300 4150 6850 4150
+Text HLabel 3500 2750 0    60   Input ~ 0
+USB_N
+Text HLabel 3500 2900 0    60   Input ~ 0
+USB_P
 $EndSCHEMATC
