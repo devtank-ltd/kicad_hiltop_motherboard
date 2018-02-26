@@ -118,7 +118,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2450 2700 1800 2300
+S 2450 2700 1800 1950
 U 589A1B39
 F0 "USBHub" 60
 F1 "USBHub.sch" 60
@@ -301,8 +301,6 @@ F 3 "" H 8075 3450 50  0000 C CNN
 	1    8075 3450
 	1    0    0    -1  
 $EndComp
-Text Notes 5200 1500 0    60   ~ 0
-FOR EXTERNAL PERIPIHALS (PROTECTED)
 $Comp
 L GND #PWR03
 U 1 1 58CBFECE
@@ -360,7 +358,7 @@ F 3 "" H 4400 2450 50  0000 C CNN
 	1    4400 2450
 	1    0    0    -1  
 $EndComp
-Text Notes 5900 5050 0    60   ~ 0
+Text Notes 7175 1825 0    60   ~ 0
 FOR EXTERNAL PERIPIHALS (PROTECTED)
 Text Label 2150 3200 2    60   ~ 0
 ~MASTER_RESET
@@ -4763,7 +4761,7 @@ U 5A7BC033
 F0 "CAN" 60
 F1 "CAN.sch" 60
 $EndSheet
-Text Notes 4350 5625 0    60   ~ 0
+Text Notes 4650 4825 0    60   ~ 0
 FOR INTERNAL PERIPIHALS (NON-PROTECTED)
 Wire Wire Line
 	4250 3400 6700 3400
