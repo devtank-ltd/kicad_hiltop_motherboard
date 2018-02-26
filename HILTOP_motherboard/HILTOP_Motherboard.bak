@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:HILTOP_Motherboard-rescue
 LIBS:Devtank
 LIBS:Zilog
 LIBS:zetex
@@ -107,7 +108,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"
@@ -4791,4 +4792,21 @@ Text Label 5375 4400 2    60   ~ 0
 BACKPLANE_USB_P
 Text Label 5375 4500 2    60   ~ 0
 BACKPLANE_USB_N
+$Sheet
+S 2475 5600 1750 1225
+U 5A951BF0
+F0 "SATA_Bridge" 60
+F1 "SATA_Bridge.sch" 60
+$EndSheet
+$Comp
+L Conn_01x07 J?
+U 1 1 5A956DE4
+P 5175 6150
+F 0 "J?" H 5175 6550 50  0000 C CNN
+F 1 "Conn_01x07" H 5175 5750 50  0000 C CNN
+F 2 "" H 5175 6150 50  0001 C CNN
+F 3 "" H 5175 6150 50  0001 C CNN
+	1    5175 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

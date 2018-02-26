@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:HILTOP_Motherboard-rescue
 LIBS:Devtank
 LIBS:Zilog
 LIBS:zetex
@@ -107,7 +108,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"
