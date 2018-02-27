@@ -108,7 +108,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"
@@ -1848,6 +1848,8 @@ $Comp
 L AT30TS75 U?
 U 1 1 5A94C016
 P 9900 1575
+AR Path="/5A94C016" Ref="U?"  Part="1" 
+AR Path="/589A1A95/5A94C016" Ref="U?"  Part="1" 
 F 0 "U?" H 9750 1825 50  0000 C CNN
 F 1 "AT30TS75" H 10150 1825 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm" H 9675 850 50  0001 C CNN
