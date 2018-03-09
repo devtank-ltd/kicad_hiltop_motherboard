@@ -1893,4 +1893,6 @@ Wire Wire Line
 	12525 8400 12525 8100
 Wire Wire Line
 	12525 8100 12400 8100
+Text Notes 11625 4850 0    60   ~ 0
+USB Signals to be tracked as 90R differential matched pairs
 $EndSCHEMATC
