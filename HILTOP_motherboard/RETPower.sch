@@ -119,7 +119,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 12450 3350 2    60   Output ~ 0
-RET_DC
+VADJ_DC
 Text HLabel 14850 3150 0    60   Input ~ 0
 PSU_SDA
 Text HLabel 14850 3300 0    60   Input ~ 0
@@ -613,7 +613,7 @@ F 4 "105-009" V 9600 4700 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 Text HLabel 12300 6300 2    60   Output ~ 0
-RET_GND
+VADJ_GND
 $Comp
 L TLC271 U10
 U 1 1 58EA7C27
