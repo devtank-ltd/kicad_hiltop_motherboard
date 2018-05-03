@@ -108,7 +108,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 7 12
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"

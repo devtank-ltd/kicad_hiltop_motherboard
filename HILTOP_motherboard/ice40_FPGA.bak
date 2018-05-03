@@ -108,7 +108,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 11
+Sheet 5 12
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"
@@ -169,8 +169,6 @@ Text HLabel 20675 15975 2    60   Input ~ 0
 RS485_CH2_DE
 Text HLabel 18425 15375 0    60   Output ~ 0
 PWR_ENABLE
-Text HLabel 18425 15275 0    60   Output ~ 0
-PWR_LED
 Text HLabel 25075 19125 2    60   Output ~ 0
 FP_GPIO_1
 Text HLabel 25075 19225 2    60   Output ~ 0

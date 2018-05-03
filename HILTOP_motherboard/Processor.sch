@@ -108,7 +108,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 6 11
+Sheet 6 12
 Title "HILTOP Motherboard"
 Date "26th January 2018"
 Rev "Issue 1"
@@ -489,47 +489,47 @@ F 3 "" H 7400 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 3700 5300 0    60   Output ~ 0
-PI_RS232_RX
+PI_GPIO15_RS232_RX
 Text HLabel 3700 5200 0    60   Output ~ 0
-PI_RS232_TX
+PI_GPIO14_RS232_TX
 Text HLabel 3700 3100 0    60   Output ~ 0
-PI_SDA1
+PI_GPIO2_I2C1_SDA
 Text HLabel 3700 3200 0    60   Output ~ 0
-PI_SCL1
+PI_GPIO3_I2C1_SCL
 Text HLabel 3700 3400 0    60   Output ~ 0
-PI_GPCLK0
+PI_GPIO4_GPCLK0
 Text HLabel 3700 3500 0    60   Output ~ 0
-PI_GPCLK1
+PI_GPIO5_GPCLK1
 Text HLabel 3700 3700 0    60   Output ~ 0
-PI_GPCLK2
+PI_GPIO6_GPCLK2
 Text HLabel 3700 3800 0    60   Output ~ 0
-PI_SPI0_CE1_N
+PI_GPIO7_SPI0_CS1
 Text HLabel 3700 4000 0    60   Output ~ 0
-PI_SPI0_CE0_N
+PI_GPIO8_SPI0_CS0
 Text HLabel 3700 4100 0    60   Output ~ 0
-PI_SPI0_MISO
+PI_GPIO9_SPI0_MISO
 Text HLabel 3700 4400 0    60   Output ~ 0
-PI_SPI0_SCLK
+PI_GPIO11_SPI0_SCLK
 Text HLabel 3700 2800 0    60   Output ~ 0
-PI_SDA0_DISP
+PI_GPIO0_I2C0_SDA
 Text HLabel 3700 2900 0    60   Output ~ 0
-PI_SCL0_DISP
+PI_GPIO1_I2C0_SCL
 Text HLabel 3700 4900 0    60   Output ~ 0
 PI_GPIO12_PWM0
 Text HLabel 3700 5000 0    60   Output ~ 0
 PI_GPIO13_PWM1
 Text HLabel 3700 5500 0    60   Output ~ 0
-PI_GPIO16
+PI_GPIO16_SPI1_CS2
 Text HLabel 3700 5600 0    60   Output ~ 0
-PI_GPIO17
+PI_GPIO17_SPI1_CS1
 Text HLabel 3700 5800 0    60   Output ~ 0
-PI_GPIO18_PCMCLK
+PI_GPIO18_SPI1_CS0
 Text HLabel 3700 5900 0    60   Output ~ 0
-PI_GPIO19_PCMFS
+PI_GPIO19_SPI1_MISO
 Text HLabel 3700 6100 0    60   Output ~ 0
-PI_GPIO20_PCMDIN
+PI_GPIO20_SPI1_MOSI
 Text HLabel 3700 6200 0    60   Output ~ 0
-PI_GPIO21_PCMDOUT
+PI_GPIO21_SPI1_CLK
 Text HLabel 3700 6400 0    60   Output ~ 0
 PI_GPIO22
 Text HLabel 3700 6500 0    60   Output ~ 0
@@ -1393,7 +1393,7 @@ Wire Wire Line
 	2600 13500 2600 13400
 Wire Wire Line
 	2600 13400 2450 13400
-Text Notes 2700 10700 0    60   ~ 0
+Text Notes 1575 10975 0    60   ~ 0
 *USB Signals to be tracked as \nmatched length 90R differential pairs
 Text Notes 4750 14200 0    60   ~ 0
 *HDMI Signals to be tracked as \nmatched length 100R differential pairs
@@ -1514,7 +1514,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 4300 3700 4300
 Text HLabel 3700 4300 0    60   Output ~ 0
-PI_SPIO_MOSI
+PI_GPIO10_SPIO_MOSI
 $Comp
 L GND #PWR?
 U 1 1 5A76E65E
@@ -2039,4 +2039,28 @@ Text Label 11000 1725 2    60   ~ 0
 SCL1
 Text Label 11000 1825 2    60   ~ 0
 SDA1
+Text HLabel 4125 10700 0    60   Output ~ 0
+CAM1_D0_N
+Text HLabel 4125 10600 0    60   Output ~ 0
+CAM1_D0_P
+Text HLabel 4125 10300 0    60   Output ~ 0
+CAM1_D1_P
+Text HLabel 4125 10400 0    60   Output ~ 0
+CAM1_D1_N
+Text HLabel 4125 10100 0    60   Output ~ 0
+CAM1_CK_N
+Text HLabel 4125 10000 0    60   Output ~ 0
+CAM1_CK_P
+Wire Wire Line
+	4850 10000 4125 10000
+Wire Wire Line
+	4850 10100 4125 10100
+Wire Wire Line
+	4850 10300 4125 10300
+Wire Wire Line
+	4850 10400 4125 10400
+Wire Wire Line
+	4850 10600 4125 10600
+Wire Wire Line
+	4850 10700 4125 10700
 $EndSCHEMATC
