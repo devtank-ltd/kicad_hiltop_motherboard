@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name HILTOP_Motherboard-rescue)(type Legacy)(uri ${KIPRJMOD}/HILTOP_Motherboard-rescue.lib)(options "")(descr ""))
+  (lib (name Devtank)(type Legacy)(uri /home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_motherboard/common/Devtank_Schema_Lib/Devtank.lib)(options "")(descr ""))
+)
