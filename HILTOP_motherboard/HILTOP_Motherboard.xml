@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_motherboard/HILTOP_motherboard/HILTOP_Motherboard.sch</source>
-    <date>Fri 04 Jan 2019 17:23:30 GMT</date>
+    <date>Tue 08 Jan 2019 21:41:06 GMT</date>
     <tool>Eeschema 5.0.1-33cea8e~68~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -860,12 +860,15 @@
     <comp ref="J21">
       <value>EXT_FAN</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Devtank">710-013</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x04" description="Generic connector, single row, 01x04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A95FB4B</tstamp>
     </comp>
     <comp ref="J5">
-      <value>USB Front Panel</value>
+      <value>USB FRONT PANEL</value>
       <footprint>Connector_Molex:Molex_Picoflex_90325-0008_2x04_P1.27mm_Vertical</footprint>
       <fields>
         <field name="Devtank">714-001</field>
@@ -935,15 +938,21 @@
       <tstamp>5AADE528</tstamp>
     </comp>
     <comp ref="J7">
-      <value>Conn_02x08_Odd_Even</value>
+      <value>RS485</value>
       <footprint>Connector_Molex:Molex_Picoflex_90325-0016_2x08_P1.27mm_Vertical</footprint>
+      <fields>
+        <field name="Devtank">714-004</field>
+      </fields>
       <libsource lib="Connector" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AEA1BCA</tstamp>
     </comp>
     <comp ref="J6">
-      <value>Conn_02x05_Odd_Even</value>
+      <value>CAN</value>
       <footprint>Connector_Molex:Molex_Picoflex_90325-0010_2x05_P1.27mm_Vertical</footprint>
+      <fields>
+        <field name="Devtank">714-002</field>
+      </fields>
       <libsource lib="Connector" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AEB4607</tstamp>
@@ -971,6 +980,9 @@
     <comp ref="J8">
       <value>EXT_TEMP_MON</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Devtank">710-014</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x03" description="Generic connector, single row, 01x03"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B1E1BF2</tstamp>
@@ -1060,6 +1072,9 @@
       <value>BACKPLANE_PWR</value>
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Devtank">709-005</field>
+      </fields>
       <libsource lib="Connector" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CFA75A2</tstamp>
@@ -1068,6 +1083,9 @@
       <value>BACKPLANE_LV_PWR</value>
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Devtank">709-006</field>
+      </fields>
       <libsource lib="Connector" part="Conn_02x02_Top_Bottom" description="Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CFA7EE8</tstamp>
@@ -1146,6 +1164,9 @@
     <comp ref="J23">
       <value>EXT_FAN</value>
       <footprint>Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Devtank">710-013</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x04" description="Generic connector, single row, 01x04"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D4FE58E</tstamp>
@@ -1173,6 +1194,9 @@
     <comp ref="J18">
       <value>USB_B</value>
       <footprint>Connector_USB:USB_B_Horizontal</footprint>
+      <fields>
+        <field name="Devtank">703-002</field>
+      </fields>
       <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5AFC628F</tstamp>
@@ -1246,8 +1270,11 @@
       <tstamp>5E34078B</tstamp>
     </comp>
     <comp ref="J26">
-      <value>Conn_02x06_Odd_Even</value>
+      <value>IO_EXP</value>
       <footprint>Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Devtank">710-002</field>
+      </fields>
       <libsource lib="Connector" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C8D5CF5</tstamp>
@@ -2419,6 +2446,9 @@
     <comp ref="D25">
       <value>YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
       <libsource lib="device" part="LED" description="LED generic"/>
       <sheetpath names="/USBHub/" tstamps="/589A1B39/"/>
       <tstamp>5A9969C5</tstamp>
@@ -2436,6 +2466,9 @@
     <comp ref="D26">
       <value>GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
       <libsource lib="device" part="LED" description="LED generic"/>
       <sheetpath names="/USBHub/" tstamps="/589A1B39/"/>
       <tstamp>5A996BED</tstamp>
@@ -4314,7 +4347,7 @@
       <value>GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
       <fields>
-        <field name="Devtank">110-002</field>
+        <field name="Devtank">110-005</field>
       </fields>
       <libsource lib="device" part="LED" description="LED generic"/>
       <sheetpath names="/BoardPower/" tstamps="/589A1BB9/"/>
@@ -6507,6 +6540,9 @@
     <comp ref="J25">
       <value>DEBUG</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Devtank">710-015</field>
+      </fields>
       <libsource lib="Connector" part="Conn_01x03" description="Generic connector, single row, 01x03"/>
       <sheetpath names="/SATA_Bridge/" tstamps="/5A951BF0/"/>
       <tstamp>5B3FF3CC</tstamp>
@@ -6736,6 +6772,9 @@
     <comp ref="D32">
       <value>GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
       <libsource lib="device" part="LED" description="LED generic"/>
       <sheetpath names="/USB_Debug/" tstamps="/5AFBC859/"/>
       <tstamp>5C3AE2A6</tstamp>
@@ -6753,6 +6792,9 @@
     <comp ref="D33">
       <value>GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
       <libsource lib="device" part="LED" description="LED generic"/>
       <sheetpath names="/USB_Debug/" tstamps="/5AFBC859/"/>
       <tstamp>5C3AF9C7</tstamp>

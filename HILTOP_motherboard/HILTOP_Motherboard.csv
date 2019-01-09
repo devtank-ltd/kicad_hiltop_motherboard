@@ -1,14 +1,14 @@
 Title,HILTOP Motherboard,,,
 Revision,Issue 1,,,
 Date,26th January 2018,,,
-Generated,Fri 04 Jan 2019 17:23:30 GMT,,,
+Generated,Tue 08 Jan 2019 21:41:06 GMT,,,
 Company,Devtank Ltd,,,
 Comment 1,,,,
 Comment 2,,,,
 Comment 3,,,,
 Comment 4,,,,
 Total Parts,766,,,
-Total Unique Parts,167,,,
+Total Unique Parts,164,,,
 ,,,,
 ,,,,
 ,,,,
@@ -48,14 +48,11 @@ C101 C154 C43 C46 ,4,470pF,Capacitor_SMD:C_0603_1608Metric,106-007
 C197 C198 C199 C200 ,4,10nF,Capacitor_SMD:C_0402_1005Metric,105-017
 C221 C222 C196 ,3,22uF,Capacitor_SMD:C_0805_2012Metric,105-018
 C195 C227 C229 ,3,1uF,Capacitor_SMD:C_0603_1608Metric,105-012
-D1 D11 D13 D15 D17 D28 D30 D23 D22 D21 D85 D86 D87 D88 D89 D90 D91 D92 ,18,GRN,LED_SMD:LED_0402_1005Metric,110-005
+D1 D11 D13 D15 D17 D26 D28 D30 D23 D22 D21 D18 D85 D86 D87 D88 D89 D90 D91 D92 D32 D33 ,22,GRN,LED_SMD:LED_0402_1005Metric,110-005
 D34 D35 D93 D94 D95 D96 D38 D39 D40 D41 D42 D43 D44 D45 D47 D48 D49 D46 D50 D51 D52 D53 D55 D56 D57 D54 D58 D59 D60 D61 D63 D64 D65 D62 D76 D68 D74 D75 D8 D10 D7 D9 ,42,BAV99,Package_TO_SOT_SMD:SOT-23,134-001
-D12 D14 D16 D27 D29 D31 ,6,YEL,LED_SMD:LED_0402_1005Metric,110-007
-D25 ,1,YEL,LED_SMD:LED_0402_1005Metric, 
-D26 D32 D33 ,3,GRN,LED_SMD:LED_0402_1005Metric, 
+D12 D14 D16 D25 D27 D29 D31 ,7,YEL,LED_SMD:LED_0402_1005Metric,110-007
 D2 D4 D3 ,3,RED,LED_SMD:LED_0402_1005Metric,110-004
 D66 ,1,MBR230LSFT,Diode_SMD:D_SOD-123F,133-006
-D18 ,1,GRN,LED_SMD:LED_0402_1005Metric,110-002
 D24 D20 ,2,STPS1L30,Diodes_SMD:D_SMB,133-001
 D6 ,1,MBRD1035,Devtank_PCB_Lib:DPAK,133-003
 D5 ,1,VB40100C,Devtank_PCB_Lib:TO-263AB,133-002
@@ -79,18 +76,18 @@ J15 ,1,VADJ_A,Connectors_Molex:Molex_MiniFit-JR-5556-02A_2x01x4.20mm_Straight,70
 J4 ,1,USB_A_DOUBLE,Devtank_PCB_Lib:USB_A_Double_Lumberg_2410_03,703-004
 J9 ,1,RJ45-TRANS_SI-61001-F,Devtank_PCB_Lib:RJ45_TRANSFO_STEWART,704-002
 J3 ,1,SATA,Connector:SATA-7_THT_VERT_1,716-001
-J21 J23 ,2,EXT_FAN,Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical, 
-J5 ,1,USB Front Panel,Connector_Molex:Molex_Picoflex_90325-0008_2x04_P1.27mm_Vertical,714-001
-J7 ,1,Conn_02x08_Odd_Even,Connector_Molex:Molex_Picoflex_90325-0016_2x08_P1.27mm_Vertical, 
-J6 ,1,Conn_02x05_Odd_Even,Connector_Molex:Molex_Picoflex_90325-0010_2x05_P1.27mm_Vertical, 
-J8 ,1,EXT_TEMP_MON,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical, 
+J21 J23 ,2,EXT_FAN,Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,710-013
+J5 ,1,USB FRONT PANEL,Connector_Molex:Molex_Picoflex_90325-0008_2x04_P1.27mm_Vertical,714-001
+J7 ,1,RS485,Connector_Molex:Molex_Picoflex_90325-0016_2x08_P1.27mm_Vertical,714-004
+J6 ,1,CAN,Connector_Molex:Molex_Picoflex_90325-0010_2x05_P1.27mm_Vertical,714-002
+J8 ,1,EXT_TEMP_MON,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,710-014
 J20 ,1,CAMERA_PORT,Devtank_PCB_Lib:DSI_FCC15W_VERT,702-003
-J1 ,1,BACKPLANE_PWR,Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical, 
-J22 ,1,BACKPLANE_LV_PWR,Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical, 
-J18 ,1,USB_B,Connector_USB:USB_B_Horizontal, 
-J26 ,1,Conn_02x06_Odd_Even,Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical, 
+J1 ,1,BACKPLANE_PWR,Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical,709-005
+J22 ,1,BACKPLANE_LV_PWR,Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,709-006
+J18 ,1,USB_B,Connector_USB:USB_B_Horizontal,703-002
+J26 ,1,IO_EXP,Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical,710-002
 J13 ,1,DDR2_SODIMM_COMPUTE_MODULE_3,Devtank_PCB_Lib:Conn_TE-DDR2-SODIMM-0.6-200P-ComputeModule,712-001
-J25 ,1,DEBUG,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical, 
+J25 ,1,DEBUG,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,710-015
 J24 ,1,HILTOP_PCIE-64_CONN,Devtank_PCB_Lib:PCIE-064-02-X-D-TH,716-002
 L1 L2 L3 L8 ,4,22uH,Devtank_PCB_Lib:Inductor_8x8,112-001
 L9 ,1,3.3uH,Devtank_PCB_Lib:Inductor_8x8,112-003
@@ -185,4 +182,4 @@ Y8 Y9 ,2,3.6864MHz Crystal,Crystal:Crystal_SMD_SeikoEpson_MA505-2Pin_12.7x5.1mm,
 ,,,,
 ,,,,
 BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git),,,,
-Generated Fri 04 Jan 2019 17:23:30 GMT,,,,
+Generated Tue 08 Jan 2019 21:41:06 GMT,,,,

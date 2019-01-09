@@ -1137,6 +1137,7 @@ F 0 "J25" H 2675 4150 50  0000 C CNN
 F 1 "DEBUG" H 2675 3750 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2675 3950 50  0001 C CNN
 F 3 "" H 2675 3950 50  0001 C CNN
+F 4 "710-015" H 2675 3950 50  0001 C CNN "Devtank"
 	1    2675 3950
 	-1   0    0    -1  
 $EndComp
