@@ -5,10 +5,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 12
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "HILTOP Motherboard"
+Date "2019-01-10"
+Rev "Issue 1"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -178,18 +178,6 @@ F 4 "105-002" H 6800 10100 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C214
-U 1 1 5A99EB51
-P 6175 8250
-F 0 "C214" H 6200 8350 50  0000 L CNN
-F 1 "100nF" H 6200 8150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6213 8100 50  0001 C CNN
-F 3 "" H 6175 8250 50  0000 C CNN
-F 4 "105-002" H 6175 8250 60  0001 C CNN "Devtank"
-	1    6175 8250
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:C C223
 U 1 1 5A99EB59
 P 9150 10100
@@ -256,18 +244,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 9950 50  0001 C CNN
 F 3 "" H 7400 10100 50  0000 C CNN
 F 4 "105-002" H 7400 10100 60  0001 C CNN "Devtank"
 	1    7400 10100
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C C220
-U 1 1 5A9A1EE0
-P 7700 10100
-F 0 "C220" H 7725 10200 50  0000 L CNN
-F 1 "100nF" H 7725 10000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7738 9950 50  0001 C CNN
-F 3 "" H 7700 10100 50  0000 C CNN
-F 4 "105-002" H 7700 10100 60  0001 C CNN "Devtank"
-	1    7700 10100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -379,18 +355,6 @@ F 4 "105-002" H 3750 8250 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C202
-U 1 1 5A9A6F30
-P 3375 8250
-F 0 "C202" H 3400 8350 50  0000 L CNN
-F 1 "100nF" H 3400 8150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3413 8100 50  0001 C CNN
-F 3 "" H 3375 8250 50  0000 C CNN
-F 4 "105-002" H 3375 8250 60  0001 C CNN "Devtank"
-	1    3375 8250
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:C C201
 U 1 1 5A9A7062
 P 3000 8250
@@ -435,8 +399,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 9500 9150 9800
 Wire Wire Line
-	6175 8400 6175 8500
-Wire Wire Line
 	2300 8000 2650 8000
 Wire Wire Line
 	6175 7700 6175 8000
@@ -462,12 +424,9 @@ Wire Wire Line
 Wire Wire Line
 	7400 9800 7400 9950
 Connection ~ 7100 9800
-Wire Wire Line
-	7700 9800 7700 9950
 Connection ~ 7400 9800
 Wire Wire Line
 	8025 9800 8025 9950
-Connection ~ 7700 9800
 Wire Wire Line
 	7100 10250 7100 10375
 Wire Wire Line
@@ -476,12 +435,9 @@ Connection ~ 6800 10375
 Wire Wire Line
 	7400 10375 7400 10250
 Connection ~ 7100 10375
-Wire Wire Line
-	7700 10375 7700 10250
 Connection ~ 7400 10375
 Wire Wire Line
 	8025 10375 8025 10250
-Connection ~ 7700 10375
 Wire Wire Line
 	8825 9950 8825 9800
 Wire Wire Line
@@ -521,7 +477,6 @@ Wire Wire Line
 	4100 8400 4100 8500
 Connection ~ 4450 8500
 Connection ~ 4100 8500
-Connection ~ 6175 8500
 Wire Wire Line
 	5850 8400 5850 8500
 Connection ~ 5850 8500
@@ -531,19 +486,13 @@ Connection ~ 5850 8000
 Wire Wire Line
 	3000 8000 3000 8100
 Wire Wire Line
-	3375 8100 3375 8000
-Connection ~ 3375 8000
-Wire Wire Line
 	3750 8100 3750 8000
 Connection ~ 3750 8000
 Wire Wire Line
 	3750 8400 3750 8500
-Wire Wire Line
-	3375 8500 3375 8400
 Connection ~ 3750 8500
 Wire Wire Line
 	3000 8500 3000 8400
-Connection ~ 3375 8500
 Wire Wire Line
 	2650 8100 2650 8000
 Connection ~ 3000 8000
@@ -1571,25 +1520,15 @@ Wire Wire Line
 Wire Wire Line
 	6175 8000 6375 8000
 Wire Wire Line
-	6175 8000 6175 8100
-Wire Wire Line
 	9150 9800 9350 9800
 Wire Wire Line
 	9150 9800 9150 9950
 Wire Wire Line
 	7100 9800 7400 9800
 Wire Wire Line
-	7400 9800 7700 9800
-Wire Wire Line
-	7700 9800 8025 9800
-Wire Wire Line
 	6800 10375 6800 10500
 Wire Wire Line
 	7100 10375 7400 10375
-Wire Wire Line
-	7400 10375 7700 10375
-Wire Wire Line
-	7700 10375 8025 10375
 Wire Wire Line
 	9150 10375 9150 10500
 Wire Wire Line
@@ -1619,17 +1558,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 8000 6175 8000
 Wire Wire Line
-	3375 8000 3750 8000
-Wire Wire Line
 	3750 8000 4100 8000
 Wire Wire Line
 	3750 8500 4100 8500
-Wire Wire Line
-	3375 8500 3750 8500
-Wire Wire Line
-	3000 8000 3375 8000
-Wire Wire Line
-	3000 8500 3375 8500
 Wire Wire Line
 	2650 8500 3000 8500
 Wire Wire Line
@@ -1749,4 +1680,12 @@ NoConn ~ 4100 4500
 NoConn ~ 4100 5575
 NoConn ~ 4900 6250
 NoConn ~ 5200 6250
+Wire Wire Line
+	3000 8500 3750 8500
+Wire Wire Line
+	3000 8000 3750 8000
+Wire Wire Line
+	7400 9800 8025 9800
+Wire Wire Line
+	7400 10375 8025 10375
 $EndSCHEMATC

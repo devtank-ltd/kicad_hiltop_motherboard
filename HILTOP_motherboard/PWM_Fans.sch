@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 11 12
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "HILTOP Motherboard"
+Date "2019-01-10"
+Rev "Issue 1"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
