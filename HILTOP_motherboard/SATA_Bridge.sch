@@ -18,14 +18,14 @@ Text HLabel 9175 4850 2    60   Input ~ 0
 SATA_USB_P
 Text HLabel 9175 4750 2    60   Input ~ 0
 SATA_USB_N
-Text HLabel 2300 2175 0    60   Output ~ 0
-CAP_SATATXM
 Text HLabel 2300 2400 0    60   Output ~ 0
-CAP_SATATXP
+CAP_SATATX_N
+Text HLabel 2300 2175 0    60   Output ~ 0
+CAP_SATATX_P
 Text HLabel 2300 2625 0    60   Output ~ 0
-CAP_SATARXM
+CAP_SATARX_N
 Text HLabel 2300 2850 0    60   Output ~ 0
-CAP_SATARXP
+CAP_SATARX_P
 $Comp
 L device:C C197
 U 1 1 5A95CF3D
@@ -1734,4 +1734,12 @@ Wire Wire Line
 Connection ~ 5675 8000
 Wire Wire Line
 	5675 8000 5850 8000
+Text Label 3600 2450 0    60   ~ 0
+TX_N
+Text Label 3600 2550 0    60   ~ 0
+TX_P
+Text Label 3600 2750 0    60   ~ 0
+RX_N
+Text Label 3600 2850 0    60   ~ 0
+RX_P
 $EndSCHEMATC
