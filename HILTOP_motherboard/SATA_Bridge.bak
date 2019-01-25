@@ -1734,4 +1734,12 @@ Wire Wire Line
 Connection ~ 5675 8000
 Wire Wire Line
 	5675 8000 5850 8000
+Text Label 3600 2450 0    60   ~ 0
+TX_N
+Text Label 3600 2550 0    60   ~ 0
+TX_P
+Text Label 3600 2750 0    60   ~ 0
+RX_N
+Text Label 3600 2850 0    60   ~ 0
+RX_P
 $EndSCHEMATC
