@@ -2997,9 +2997,6 @@ Connection ~ 19050 2050
 Connection ~ 21700 2050
 Wire Wire Line
 	21700 1900 21700 2050
-Connection ~ 2000 14600
-Wire Wire Line
-	2100 13600 2000 13600
 Wire Wire Line
 	3350 13600 3000 13600
 Connection ~ 3200 13700
@@ -3188,8 +3185,6 @@ Wire Wire Line
 	2100 14600 2000 14600
 Wire Wire Line
 	2000 14700 2100 14700
-Wire Wire Line
-	2000 13600 2000 14600
 Wire Wire Line
 	2000 14900 3050 14900
 Connection ~ 3200 14200
@@ -6970,4 +6965,5 @@ Wire Wire Line
 Connection ~ 1600 13850
 Wire Wire Line
 	1600 13850 1600 13900
+NoConn ~ 2100 13600
 $EndSCHEMATC
