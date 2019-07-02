@@ -1,0 +1,7 @@
+# export files for BOM
+*.tsv
+# backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+~*
