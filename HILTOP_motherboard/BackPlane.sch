@@ -6,8 +6,8 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 9 12
 Title "HILTOP Motherboard"
-Date "2019-01-10"
-Rev "Issue 1"
+Date "2019-07-03"
+Rev "Rev B"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""

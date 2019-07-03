@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "HILTOP Motherboard"
-Date "2019-01-10"
-Rev "Issue 1"
+Date "2019-07-03"
+Rev "Rev B"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -200,9 +200,11 @@ F 4 "101-005" V 2800 2725 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Devtank:USB2517 U3
+L HILTOP_Motherboard-rescue:USB2517-Devtank U3
 U 1 1 5A933E77
 P 6325 2875
+AR Path="/5A933E77" Ref="U3"  Part="1" 
+AR Path="/589A1B39/5A933E77" Ref="U3"  Part="1" 
 F 0 "U3" H 5500 450 50  0000 C CNN
 F 1 "USB2517" H 7050 450 50  0000 C CNN
 F 2 "Devtank_PCB_Lib:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm" H 7075 250 50  0001 C CNN
@@ -212,9 +214,11 @@ F 4 "118-004" H 6325 2875 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:USB2517 U3
+L HILTOP_Motherboard-rescue:USB2517-Devtank U3
 U 2 1 5A934048
 P 6350 7975
+AR Path="/5A934048" Ref="U3"  Part="2" 
+AR Path="/589A1B39/5A934048" Ref="U3"  Part="2" 
 F 0 "U3" H 5525 5550 50  0000 C CNN
 F 1 "USB2517" H 7075 5550 50  0000 C CNN
 F 2 "Devtank_PCB_Lib:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm" H 7100 5350 50  0001 C CNN

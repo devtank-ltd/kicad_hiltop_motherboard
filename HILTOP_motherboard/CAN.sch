@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 12
 Title "HILTOP Motherboard"
-Date "2019-01-10"
-Rev "Issue 1"
+Date "2019-07-03"
+Rev "Rev B"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -367,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 3225 10550 3225
 Wire Wire Line
-	10550 3125 10550 3225
+	10550 3125 10550 3175
 Connection ~ 10550 3225
 $Comp
 L Devtank:GND_ISO1 #PWR0386
@@ -674,7 +674,7 @@ Wire Wire Line
 Wire Wire Line
 	10775 6025 10525 6025
 Wire Wire Line
-	10525 5925 10525 6025
+	10525 5925 10525 5950
 Connection ~ 10525 6025
 Wire Wire Line
 	12225 5975 12225 6075
@@ -1624,9 +1624,7 @@ Wire Wire Line
 NoConn ~ 7425 5800
 NoConn ~ 5275 2675
 NoConn ~ 5250 5475
-NoConn ~ 10300 2425
 NoConn ~ 10300 2725
-NoConn ~ 10275 5225
 NoConn ~ 10275 5525
 Wire Wire Line
 	1450 8750 1900 8750
@@ -1708,4 +1706,22 @@ Wire Wire Line
 Connection ~ 4550 9325
 Wire Wire Line
 	4550 9325 4550 9400
+Wire Wire Line
+	10275 5225 10375 5225
+Wire Wire Line
+	10375 5225 10375 5950
+Wire Wire Line
+	10375 5950 10525 5950
+Connection ~ 10525 5950
+Wire Wire Line
+	10525 5950 10525 6025
+Wire Wire Line
+	10300 2425 10425 2425
+Wire Wire Line
+	10425 2425 10425 3175
+Wire Wire Line
+	10425 3175 10550 3175
+Connection ~ 10550 3175
+Wire Wire Line
+	10550 3175 10550 3225
 $EndSCHEMATC

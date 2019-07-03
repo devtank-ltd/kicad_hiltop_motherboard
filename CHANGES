@@ -1,0 +1,32 @@
+Changes incorporated in Rev B:
+
+1) D84 - Swap with 0R link > Now 0805 0R link
+
+2) Fit Resistor links to R168, R170, R172. > 0R parts fitted (no change to layout)
+
+3) Lift legs, pin 5 and pin 8 on U21, U20, U19 and U18. > Swapped pins 5 to 8 ( there was an inversion on all RS485 pins, A, B, Y and Z.)
+
+4) U35 and U36 - connect pins 2-8 on each chip > pin 8 (STBY) connected to ground.
+
+5) Ensure LAN EPPROM (U45) is blank.
+
+6) Program Sata EPPROM
+
+8) SATA Reset U37, Pin 4 - consider adding reset circuitry to Sata chip and link option to master reset line > Added reset circuit
+
+9) Fit series 0R links and decoupling caps (0402) on all data lines just before the connectors for the RS485
+
+
+10) Fit ferrite bead and filter cap close the power supply connectors and on the front panel where it leaves
+the box, to help remove unwanted noise.
+
+11) Ensure ground of HDMI connector is main ground and not earth ground.
+
+12) Add spare EPPROM to main motherboard.
+
+13) Move adjustable power connectors so they don't clash with backplane
+
+14) Add pull up to 1 wire header, J8
+
+
+
