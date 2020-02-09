@@ -28,5 +28,15 @@ the box, to help remove unwanted noise.
 
 14) Add pull up to 1 wire header, J8
 
+15) Added R251 (47K) and change R203 from DNP to 24K.
+
+Mods required to Rev B:
+
+a) Swap R8 for a 360R part. (-5V regulator fix)
+
+b) Remove R186 and fit 0R 0603 part to R94. (enable global reset on Sata device)
+
+c) Ensure R168, R170 and R172 have been fitted (0402 0R links) - These were missed by the Contract Manufacturer on the last build batch.
+
 
 
