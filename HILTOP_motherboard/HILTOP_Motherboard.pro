@@ -1,4 +1,4 @@
-update=Wed 10 Jul 2019 16:43:12 BST
+update=Tue 28 Apr 2020 12:54:48 BST
 version=1
 last_client=kicad
 [cvpcb]
@@ -12,7 +12,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=/home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_motherboard/common/Devtank_KiCAD_Setup/Devtank_Dwg_Template.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=../../PDFs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

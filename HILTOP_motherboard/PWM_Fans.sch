@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 10 12
 Title "HILTOP Motherboard"
 Date "2019-07-03"
 Rev "Rev B"
@@ -36,7 +36,7 @@ $EndComp
 Wire Wire Line
 	6300 2000 6300 2150
 $Comp
-L device:R R215
+L HILTOP_Motherboard-rescue:R-device R215
 U 1 1 5F1521D2
 P 5600 2450
 F 0 "R215" V 5500 2275 50  0000 C CNN
@@ -48,7 +48,7 @@ F 4 "101-001" V 5600 2450 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q?
+L HILTOP_Motherboard-rescue:Q_NMOS_GSD-device Q?
 U 1 1 5F1521D9
 P 6200 2450
 AR Path="/5F1521D9" Ref="Q?"  Part="1" 
@@ -62,7 +62,7 @@ F 4 "170-002" H 6200 2450 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L HILTOP_Motherboard-rescue:R-device R?
 U 1 1 5F1521E1
 P 5875 2650
 AR Path="/5F1521E1" Ref="R?"  Part="1" 
@@ -107,7 +107,7 @@ $EndComp
 Wire Wire Line
 	6300 3900 6300 4050
 $Comp
-L device:R R216
+L HILTOP_Motherboard-rescue:R-device R216
 U 1 1 5F152488
 P 5600 4325
 F 0 "R216" V 5500 4175 50  0000 C CNN
@@ -119,7 +119,7 @@ F 4 "101-001" V 5600 4325 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q6
+L HILTOP_Motherboard-rescue:Q_NMOS_GSD-device Q6
 U 1 1 5F15248F
 P 6200 4325
 F 0 "Q6" H 6400 4375 50  0000 L CNN
@@ -131,7 +131,7 @@ F 4 "170-002" H 6200 4325 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R218
+L HILTOP_Motherboard-rescue:R-device R218
 U 1 1 5F152497
 P 5875 4525
 F 0 "R218" H 5750 4575 50  0000 C CNN
@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 4325 5450 4325
 $Comp
-L device:R R?
+L HILTOP_Motherboard-rescue:R-device R?
 U 1 1 5F152601
 P 6300 1850
 AR Path="/5F152601" Ref="R?"  Part="1" 
@@ -174,7 +174,7 @@ F 3 "" H 6300 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R?
+L HILTOP_Motherboard-rescue:R-device R?
 U 1 1 5F1526AA
 P 6300 3750
 AR Path="/5F1526AA" Ref="R?"  Part="1" 
@@ -241,7 +241,7 @@ F 3 "" H 3175 6825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_NMOS_GSD Q7
+L HILTOP_Motherboard-rescue:Q_NMOS_GSD-device Q7
 U 1 1 5C6F6F19
 P 3075 6350
 F 0 "Q7" H 3275 6400 50  0000 L CNN
@@ -253,7 +253,7 @@ F 4 "170-002" H 3075 6350 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R159
+L HILTOP_Motherboard-rescue:R-device R159
 U 1 1 5C6F6F21
 P 2750 6550
 F 0 "R159" H 2625 6600 50  0000 C CNN
@@ -279,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 6350 2875 6350
 $Comp
-L device:Q_PMOS_GSD Q8
+L HILTOP_Motherboard-rescue:Q_PMOS_GSD-device Q8
 U 1 1 5C6F7F86
 P 3775 5250
 F 0 "Q8" V 4118 5250 50  0000 C CNN
@@ -291,7 +291,7 @@ F 4 "173-003" V 3775 5250 50  0001 C CNN "Devtank"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R R184
+L HILTOP_Motherboard-rescue:R-device R184
 U 1 1 5C6F9478
 P 3175 5400
 F 0 "R184" H 3050 5450 50  0000 C CNN
@@ -303,7 +303,7 @@ F 4 "101-010" H 3175 5400 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R185
+L HILTOP_Motherboard-rescue:R-device R185
 U 1 1 5C6F9600
 P 3175 5900
 F 0 "R185" H 3050 5950 50  0000 C CNN
@@ -348,7 +348,7 @@ Wire Wire Line
 Wire Wire Line
 	2175 6350 2750 6350
 $Comp
-L device:C C237
+L HILTOP_Motherboard-rescue:C-device C237
 U 1 1 5C708943
 P 3400 5400
 F 0 "C237" H 3515 5446 50  0000 L CNN
@@ -361,7 +361,7 @@ $EndComp
 Wire Wire Line
 	3175 5150 3400 5150
 $Comp
-L device:C C238
+L HILTOP_Motherboard-rescue:C-device C238
 U 1 1 5C70A734
 P 4125 5400
 F 0 "C238" H 4010 5354 50  0000 R CNN

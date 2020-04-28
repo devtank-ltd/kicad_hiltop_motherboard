@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 9 12
 Title "HILTOP Motherboard"
 Date "2019-07-03"
 Rev "Rev B"
@@ -23,7 +23,7 @@ USB_P
 Text HLabel 3025 3975 0    60   BiDi ~ 0
 USB_N
 $Comp
-L silabs:CP2102N-A01-GQFN24 U41
+L HILTOP_Motherboard-rescue:CP2102N-A01-GQFN24-silabs U41
 U 1 1 5C2328D1
 P 5525 3475
 F 0 "U41" H 5125 4350 50  0000 C CNN
@@ -64,19 +64,6 @@ Wire Wire Line
 Connection ~ 3250 3975
 Wire Wire Line
 	3250 3975 4925 3975
-$Comp
-L power:+3V3 #PWR0223
-U 1 1 5C39C355
-P 5525 1850
-F 0 "#PWR0223" H 5525 1700 50  0001 C CNN
-F 1 "+3V3" H 5540 2023 50  0000 C CNN
-F 2 "" H 5525 1850 50  0001 C CNN
-F 3 "" H 5525 1850 50  0001 C CNN
-	1    5525 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5525 1850 5525 1925
 Wire Wire Line
 	5425 2575 5425 2450
 Wire Wire Line
@@ -88,17 +75,12 @@ Wire Wire Line
 	4925 3475 4650 3475
 Wire Wire Line
 	4650 3475 4650 2975
-Wire Wire Line
-	4650 2325 5525 2325
-Connection ~ 5525 2325
-Wire Wire Line
-	5525 2325 5525 2450
 $Comp
-L device:R R203
+L HILTOP_Motherboard-rescue:R-device R203
 U 1 1 5C3A3F19
 P 4050 3775
 F 0 "R203" V 3950 3675 50  0000 C CNN
-F 1 "24K" V 3950 3900 50  0000 C CNN
+F 1 "0R" V 3950 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 3775 50  0001 C CNN
 F 3 "" H 4050 3775 50  0001 C CNN
 F 4 "101-005" V 4050 3775 50  0001 C CNN "Devtank"
@@ -120,7 +102,7 @@ USB_~RESET
 Wire Wire Line
 	3000 2875 3300 2875
 $Comp
-L device:R R?
+L HILTOP_Motherboard-rescue:R-device R?
 U 1 1 5C3AE29F
 P 6650 3850
 AR Path="/589A1B39/5C3AE29F" Ref="R?"  Part="1" 
@@ -134,7 +116,7 @@ F 4 "101-024" V 6650 3850 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D?
+L HILTOP_Motherboard-rescue:LED-device D?
 U 1 1 5C3AE2A6
 P 7350 3850
 AR Path="/589A1B39/5C3AE2A6" Ref="D?"  Part="1" 
@@ -150,7 +132,7 @@ $EndComp
 Wire Wire Line
 	6800 3850 7200 3850
 $Comp
-L device:R R?
+L HILTOP_Motherboard-rescue:R-device R?
 U 1 1 5C3AF9C1
 P 6650 4075
 AR Path="/589A1B39/5C3AF9C1" Ref="R?"  Part="1" 
@@ -164,7 +146,7 @@ F 4 "101-024" V 6650 4075 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D?
+L HILTOP_Motherboard-rescue:LED-device D?
 U 1 1 5C3AF9C7
 P 7350 4075
 AR Path="/589A1B39/5C3AF9C7" Ref="D?"  Part="1" 
@@ -196,7 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	6125 3275 7125 3275
 $Comp
-L device:R R208
+L HILTOP_Motherboard-rescue:R-device R208
 U 1 1 5C3B4D7B
 P 7275 3175
 F 0 "R208" V 7175 3075 50  0000 C CNN
@@ -208,7 +190,7 @@ F 4 "101-005" V 7275 3175 50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R209
+L HILTOP_Motherboard-rescue:R-device R209
 U 1 1 5C3B4EF0
 P 7275 3275
 F 0 "R209" V 7375 3175 50  0000 C CNN
@@ -224,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	7425 3275 7575 3275
 $Comp
-L device:C C219
+L HILTOP_Motherboard-rescue:C-device C219
 U 1 1 5C3B9E2E
 P 4350 3250
 AR Path="/5AFBC859/5C3B9E2E" Ref="C219"  Part="1" 
@@ -251,7 +233,7 @@ $EndComp
 Wire Wire Line
 	4350 3425 4350 3400
 $Comp
-L device:C C217
+L HILTOP_Motherboard-rescue:C-device C217
 U 1 1 5C3BA6B6
 P 3900 3250
 F 0 "C217" H 4015 3296 50  0000 L CNN
@@ -266,9 +248,6 @@ Wire Wire Line
 	4350 3100 4350 2975
 Wire Wire Line
 	4350 2975 4650 2975
-Connection ~ 4650 2975
-Wire Wire Line
-	4650 2975 4650 2325
 Wire Wire Line
 	3900 3100 3900 2975
 Wire Wire Line
@@ -288,7 +267,7 @@ $EndComp
 Wire Wire Line
 	3900 3425 3900 3400
 $Comp
-L device:R R201
+L HILTOP_Motherboard-rescue:R-device R201
 U 1 1 5C3C0EE1
 P 3450 2875
 F 0 "R201" V 3350 2775 50  0000 C CNN
@@ -302,7 +281,7 @@ $EndComp
 Wire Wire Line
 	3600 2875 3825 2875
 $Comp
-L device:R R202
+L HILTOP_Motherboard-rescue:R-device R202
 U 1 1 5C3C0F83
 P 3825 2625
 F 0 "R202" H 3700 2575 50  0000 C CNN
@@ -331,7 +310,7 @@ $EndComp
 Wire Wire Line
 	3825 2400 3825 2475
 $Comp
-L device:C C224
+L HILTOP_Motherboard-rescue:C-device C224
 U 1 1 5C3C60B5
 P 5800 2225
 F 0 "C224" H 5915 2271 50  0000 L CNN
@@ -343,7 +322,7 @@ F 4 "105-007" H 5800 2225 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C225
+L HILTOP_Motherboard-rescue:C-device C225
 U 1 1 5C3C6FB8
 P 6225 2225
 F 0 "C225" H 6340 2271 50  0000 L CNN
@@ -358,9 +337,6 @@ Wire Wire Line
 	5800 2075 5800 1925
 Wire Wire Line
 	5800 1925 5525 1925
-Connection ~ 5525 1925
-Wire Wire Line
-	5525 1925 5525 2325
 Wire Wire Line
 	6225 2075 6225 1925
 Wire Wire Line
@@ -392,17 +368,6 @@ Wire Wire Line
 	6225 2425 6225 2375
 Wire Wire Line
 	5800 2375 5800 2425
-$Comp
-L power:+3V3 #PWR0227
-U 1 1 5C3D2F35
-P 7875 3675
-F 0 "#PWR0227" H 7875 3525 50  0001 C CNN
-F 1 "+3V3" H 7890 3848 50  0000 C CNN
-F 2 "" H 7875 3675 50  0001 C CNN
-F 3 "" H 7875 3675 50  0001 C CNN
-	1    7875 3675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7875 3675 7875 3850
 Wire Wire Line
@@ -423,11 +388,11 @@ NoConn ~ 6125 3575
 NoConn ~ 6125 3775
 NoConn ~ 6125 3875
 $Comp
-L device:R R251
+L HILTOP_Motherboard-rescue:R-device R251
 U 1 1 5D3E6FB7
 P 4650 4175
 F 0 "R251" H 4475 4125 50  0000 C CNN
-F 1 "47K" H 4500 4225 50  0000 C CNN
+F 1 "DNF" H 4500 4225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 4175 50  0001 C CNN
 F 3 "" H 4650 4175 50  0001 C CNN
 F 4 "101-016" H 4650 4175 50  0001 C CNN "Devtank"
@@ -511,4 +476,37 @@ Wire Wire Line
 	3325 3875 3325 4750
 Wire Wire Line
 	3250 3975 3250 5050
+Wire Wire Line
+	3900 2975 3425 2975
+Wire Wire Line
+	3425 2975 3425 3600
+Connection ~ 3900 2975
+Connection ~ 3425 3600
+Wire Wire Line
+	5525 1925 5525 2450
+$Comp
+L power:VDD #PWR067
+U 1 1 5EBB4275
+P 7875 3675
+F 0 "#PWR067" H 7875 3525 50  0001 C CNN
+F 1 "VDD" H 7890 3848 50  0000 C CNN
+F 2 "" H 7875 3675 50  0001 C CNN
+F 3 "" H 7875 3675 50  0001 C CNN
+	1    7875 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR063
+U 1 1 5EBB4893
+P 5525 1825
+F 0 "#PWR063" H 5525 1675 50  0001 C CNN
+F 1 "VDD" H 5540 1998 50  0000 C CNN
+F 2 "" H 5525 1825 50  0001 C CNN
+F 3 "" H 5525 1825 50  0001 C CNN
+	1    5525 1825
+	1    0    0    -1  
+$EndComp
+Connection ~ 5525 1925
+Wire Wire Line
+	5525 1825 5525 1925
 $EndSCHEMATC

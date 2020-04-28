@@ -30,7 +30,7 @@ the box, to help remove unwanted noise.
 
 15) Added R251 (47K) and change R203 from DNP to 24K.
 
-Mods required to Rev B:
+Changes incorporated in Rev C:
 
 a) Swap R8 for a 360R part. (-5V regulator fix)
 
@@ -38,5 +38,17 @@ b) Remove R186 and fit 0R 0603 part to R94. (enable global reset on Sata device)
 
 c) Ensure R168, R170 and R172 have been fitted (0402 0R links) - These were missed by the Contract Manufacturer on the last build batch.
 
+d) Move backplane connector to right hand side by 1mm to fix alignment issue on HILTOP chassis
+
+e) Add an integrated low pass filter (e.g. NUF6401 or similar) in series with the SD card interface on the
+HILTOP motherboard. Place close to the Raspberry Pi end of the interface.
+
+f) Make ground planes continuous to board edge on top side where connectors are located, also make mounting holes all grounded and remove resistor link options, delete R148, R149, R150, R151 & C1
+
+g) Add power supply circuit, U48 https://uk.farnell.com/nexperia/74lvc1g3157gv-125/mux-demux-2-1-sc-74-6/dp/2463921?st=74LVC1G3157
+
+h) Expose unused USB channel 6 on USB2517 hub to vertical USB port on Motherboard (For internal use)
+
+i) Changed footprint for Y1 for a smaller package (5x3.2mm)
 
 

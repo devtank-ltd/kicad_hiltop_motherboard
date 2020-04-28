@@ -40,9 +40,9 @@ Text HLabel 10150 8625 2    60   Output ~ 0
 USB5_P
 Text HLabel 10150 8725 2    60   Output ~ 0
 USB5_N
-Text HLabel 10150 9225 2    60   Output ~ 0
+Text HLabel 11350 8850 2    60   Output ~ 0
 USB6_P
-Text HLabel 10150 9325 2    60   Output ~ 0
+Text HLabel 11350 9825 2    60   Output ~ 0
 USB6_N
 Text HLabel 10150 9825 2    60   Output ~ 0
 USB7_P
@@ -64,7 +64,7 @@ F 3 "" H 3300 2175 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R20
+L HILTOP_Motherboard-rescue:R-device R20
 U 1 1 58CD254F
 P 3300 2475
 F 0 "R20" H 3450 2425 50  0000 C CNN
@@ -76,7 +76,7 @@ F 4 "101-015" H 3300 2475 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C32
+L HILTOP_Motherboard-rescue:C-device C32
 U 1 1 58CD2601
 P 3300 2925
 F 0 "C32" H 3325 3025 50  0000 L CNN
@@ -116,7 +116,7 @@ $EndComp
 Text Label 4475 6425 0    60   ~ 0
 OCS1
 $Comp
-L device:R R27
+L HILTOP_Motherboard-rescue:R-device R27
 U 1 1 58CD958D
 P 7900 2475
 F 0 "R27" V 7800 2375 50  0000 C CNN
@@ -128,19 +128,19 @@ F 4 "101-044" V 7900 2475 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Crystal Y1
+L HILTOP_Motherboard-rescue:Crystal-device Y1
 U 1 1 58CDD1CB
 P 4575 3475
 F 0 "Y1" H 4575 3625 50  0000 C CNN
 F 1 "24MHz Crystal" H 4625 3325 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_7050-2Pin_7.0x5.0mm" H 4575 3475 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 4575 3475 50  0001 C CNN
 F 3 "" H 4575 3475 50  0000 C CNN
 F 4 "181-003" H 4575 3475 60  0001 C CNN "Devtank"
 	1    4575 3475
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C30
+L HILTOP_Motherboard-rescue:C-device C30
 U 1 1 58CDE3DC
 P 4100 3225
 F 0 "C30" H 4125 3325 50  0000 L CNN
@@ -152,7 +152,7 @@ F 4 "106-010" H 4100 3225 60  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C33
+L HILTOP_Motherboard-rescue:C-device C33
 U 1 1 58CDE4CC
 P 4100 3775
 F 0 "C33" H 4125 3875 50  0000 L CNN
@@ -164,7 +164,7 @@ F 4 "106-010" H 4100 3775 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R21
+L HILTOP_Motherboard-rescue:R-device R21
 U 1 1 58CDFBA7
 P 4875 3500
 F 0 "R21" V 4775 3400 50  0000 C CNN
@@ -176,7 +176,7 @@ F 4 "101-019" V 4875 3500 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C35
+L HILTOP_Motherboard-rescue:C-device C35
 U 1 1 58CE3E35
 P 4825 4775
 F 0 "C35" H 4850 4875 50  0000 L CNN
@@ -188,7 +188,7 @@ F 4 "105-019" H 4825 4775 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R152
+L HILTOP_Motherboard-rescue:R-device R152
 U 1 1 59379AF7
 P 2800 2725
 F 0 "R152" V 2700 2625 50  0000 C CNN
@@ -239,7 +239,7 @@ F 3 "" H 4550 775 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C23
+L HILTOP_Motherboard-rescue:C-device C23
 U 1 1 5A938CF6
 P 4200 900
 F 0 "C23" V 4300 750 50  0000 L CNN
@@ -273,7 +273,7 @@ F 3 "" H 4975 2475 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R34
+L HILTOP_Motherboard-rescue:R-device R34
 U 1 1 5A942716
 P 4325 2475
 F 0 "R34" H 4475 2425 50  0000 C CNN
@@ -307,7 +307,7 @@ F 3 "" H 5025 5275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C29
+L HILTOP_Motherboard-rescue:C-device C29
 U 1 1 5A948053
 P 4550 4775
 F 0 "C29" H 4575 4875 50  0000 L CNN
@@ -319,7 +319,7 @@ F 4 "105-014" H 4550 4775 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C28
+L HILTOP_Motherboard-rescue:C-device C28
 U 1 1 5A948467
 P 4375 4325
 F 0 "C28" H 4400 4425 50  0000 L CNN
@@ -331,7 +331,7 @@ F 4 "105-019" H 4375 4325 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C21
+L HILTOP_Motherboard-rescue:C-device C21
 U 1 1 5A94846E
 P 4100 4325
 F 0 "C21" H 4125 4425 50  0000 L CNN
@@ -376,7 +376,7 @@ F 3 "" H 8300 2625 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R49
+L HILTOP_Motherboard-rescue:R-device R49
 U 1 1 5A94D9A7
 P 8500 1500
 F 0 "R49" H 8650 1450 50  0000 C CNN
@@ -388,7 +388,7 @@ F 4 "101-501" H 8500 1500 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R50
+L HILTOP_Motherboard-rescue:R-device R50
 U 1 1 5A94DE4F
 P 8825 1500
 F 0 "R50" H 8975 1450 50  0000 C CNN
@@ -400,7 +400,7 @@ F 4 "101-501" H 8825 1500 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R52
+L HILTOP_Motherboard-rescue:R-device R52
 U 1 1 5A94E133
 P 9150 1500
 F 0 "R52" H 9300 1450 50  0000 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 9150 1500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R72
+L HILTOP_Motherboard-rescue:R-device R72
 U 1 1 5A94E247
 P 9475 1500
 F 0 "R72" H 9625 1450 50  0000 C CNN
@@ -423,7 +423,7 @@ F 4 "101-501" H 9475 1500 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R51
+L HILTOP_Motherboard-rescue:R-device R51
 U 1 1 5A94E561
 P 8825 2375
 F 0 "R51" H 8975 2325 50  0000 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 8825 2375 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R53
+L HILTOP_Motherboard-rescue:R-device R53
 U 1 1 5A94E568
 P 9150 2375
 F 0 "R53" H 9300 2325 50  0000 C CNN
@@ -446,7 +446,7 @@ F 4 "101-501" H 9150 2375 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R78
+L HILTOP_Motherboard-rescue:R-device R78
 U 1 1 5A94E56F
 P 9475 2375
 F 0 "R78" H 9625 2325 50  0000 C CNN
@@ -501,7 +501,7 @@ F 3 "" H 7875 4825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C39
+L HILTOP_Motherboard-rescue:C-device C39
 U 1 1 5A952570
 P 8475 4300
 F 0 "C39" H 8500 4400 50  0000 L CNN
@@ -513,7 +513,7 @@ F 4 "105-019" H 8475 4300 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C37
+L HILTOP_Motherboard-rescue:C-device C37
 U 1 1 5A952577
 P 8200 4300
 F 0 "C37" H 8225 4400 50  0000 L CNN
@@ -536,7 +536,7 @@ F 3 "" H 8350 4575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C34
+L HILTOP_Motherboard-rescue:C-device C34
 U 1 1 5A9526D5
 P 7875 4625
 F 0 "C34" H 7900 4725 50  0000 L CNN
@@ -559,7 +559,7 @@ F 3 "" H 9250 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C31
+L HILTOP_Motherboard-rescue:C-device C31
 U 1 1 5A9553AF
 P 7775 5375
 F 0 "C31" H 7800 5475 50  0000 L CNN
@@ -571,7 +571,7 @@ F 4 "105-019" H 7775 5375 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C36
+L HILTOP_Motherboard-rescue:C-device C36
 U 1 1 5A95564F
 P 8050 5375
 F 0 "C36" H 8075 5475 50  0000 L CNN
@@ -583,7 +583,7 @@ F 4 "105-019" H 8050 5375 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C38
+L HILTOP_Motherboard-rescue:C-device C38
 U 1 1 5A95577A
 P 8325 5375
 F 0 "C38" H 8350 5475 50  0000 L CNN
@@ -595,7 +595,7 @@ F 4 "105-019" H 8325 5375 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C40
+L HILTOP_Motherboard-rescue:C-device C40
 U 1 1 5A9558A8
 P 8600 5375
 F 0 "C40" H 8625 5475 50  0000 L CNN
@@ -607,7 +607,7 @@ F 4 "105-019" H 8600 5375 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C41
+L HILTOP_Motherboard-rescue:C-device C41
 U 1 1 5A9559D5
 P 8875 5375
 F 0 "C41" H 8900 5475 50  0000 L CNN
@@ -619,7 +619,7 @@ F 4 "105-019" H 8875 5375 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C42
+L HILTOP_Motherboard-rescue:C-device C42
 U 1 1 5A955FF2
 P 9250 5375
 F 0 "C42" H 9275 5475 50  0000 L CNN
@@ -665,29 +665,6 @@ F 2 "Package_SOIC:SOIC-8_3.9x4.9mm_P1.27mm" H 2850 8100 50  0001 C CNN
 F 3 "DOCUMENTATION" H 2700 8200 50  0001 C CNN
 F 4 "153-003" H 2700 8700 50  0001 C CNN "Devtank"
 	1    2700 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R R30
-U 1 1 5A9805A2
-P 1350 8750
-F 0 "R30" H 1500 8700 50  0000 C CNN
-F 1 "10K" H 1500 8800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1280 8750 50  0001 C CNN
-F 3 "" H 1350 8750 50  0000 C CNN
-F 4 "101-501" H 1350 8750 60  0001 C CNN "Devtank"
-	1    1350 8750
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5A980EDC
-P 1350 9000
-F 0 "#PWR0103" H 1350 8750 50  0001 C CNN
-F 1 "GND" H 1350 8850 50  0000 C CNN
-F 2 "" H 1350 9000 50  0000 C CNN
-F 3 "" H 1350 9000 50  0000 C CNN
-	1    1350 9000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -743,10 +720,10 @@ Text Label 4225 7225 2    60   ~ 0
 OCS1
 Text Label 4225 7325 2    60   ~ 0
 OCS2
-Text Label 3900 8750 2    60   ~ 0
+Text Label 4225 8750 2    60   ~ 0
 OCS3
 $Comp
-L device:R R35
+L HILTOP_Motherboard-rescue:R-device R35
 U 1 1 5A9933A6
 P 7975 6525
 F 0 "R35" V 7925 6300 50  0000 C CNN
@@ -758,7 +735,7 @@ F 4 "101-504" V 7975 6525 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D11
+L HILTOP_Motherboard-rescue:LED-device D11
 U 1 1 5A993EBB
 P 8675 6525
 F 0 "D11" H 8475 6575 50  0000 C CNN
@@ -781,7 +758,7 @@ F 3 "" H 9050 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R36
+L HILTOP_Motherboard-rescue:R-device R36
 U 1 1 5A994E5F
 P 7975 6700
 F 0 "R36" V 7925 6475 50  0000 C CNN
@@ -793,7 +770,7 @@ F 4 "101-504" V 7975 6700 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D12
+L HILTOP_Motherboard-rescue:LED-device D12
 U 1 1 5A994E66
 P 8675 6700
 F 0 "D12" H 8475 6750 50  0000 C CNN
@@ -805,7 +782,7 @@ F 4 "110-007" H 8675 6700 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R37
+L HILTOP_Motherboard-rescue:R-device R37
 U 1 1 5A995005
 P 7975 7125
 F 0 "R37" V 7925 6900 50  0000 C CNN
@@ -817,7 +794,7 @@ F 4 "101-504" V 7975 7125 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D13
+L HILTOP_Motherboard-rescue:LED-device D13
 U 1 1 5A99500D
 P 8675 7125
 F 0 "D13" H 8475 7175 50  0000 C CNN
@@ -829,7 +806,7 @@ F 4 "110-005" H 8675 7125 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R38
+L HILTOP_Motherboard-rescue:R-device R38
 U 1 1 5A99542E
 P 7975 7300
 F 0 "R38" V 7925 7075 50  0000 C CNN
@@ -841,7 +818,7 @@ F 4 "101-504" V 7975 7300 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D14
+L HILTOP_Motherboard-rescue:LED-device D14
 U 1 1 5A995436
 P 8675 7300
 F 0 "D14" H 8475 7350 50  0000 C CNN
@@ -853,7 +830,7 @@ F 4 "110-007" H 8675 7300 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R39
+L HILTOP_Motherboard-rescue:R-device R39
 U 1 1 5A995612
 P 7975 7725
 F 0 "R39" V 7925 7500 50  0000 C CNN
@@ -865,7 +842,7 @@ F 4 "101-504" V 7975 7725 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D15
+L HILTOP_Motherboard-rescue:LED-device D15
 U 1 1 5A99561A
 P 8675 7725
 F 0 "D15" H 8475 7775 50  0000 C CNN
@@ -877,7 +854,7 @@ F 4 "110-005" H 8675 7725 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R40
+L HILTOP_Motherboard-rescue:R-device R40
 U 1 1 5A9963E8
 P 7975 7900
 F 0 "R40" V 7925 7675 50  0000 C CNN
@@ -889,7 +866,7 @@ F 4 "101-504" V 7975 7900 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D16
+L HILTOP_Motherboard-rescue:LED-device D16
 U 1 1 5A9963F0
 P 8675 7900
 F 0 "D16" H 8475 7950 50  0000 C CNN
@@ -901,7 +878,7 @@ F 4 "110-007" H 8675 7900 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R41
+L HILTOP_Motherboard-rescue:R-device R41
 U 1 1 5A99689C
 P 7975 8325
 F 0 "R41" V 7925 8100 50  0000 C CNN
@@ -913,7 +890,7 @@ F 4 "101-504" V 7975 8325 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D17
+L HILTOP_Motherboard-rescue:LED-device D17
 U 1 1 5A9968A4
 P 8675 8325
 F 0 "D17" H 8475 8375 50  0000 C CNN
@@ -925,7 +902,7 @@ F 4 "110-005" H 8675 8325 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R42
+L HILTOP_Motherboard-rescue:R-device R42
 U 1 1 5A9969BD
 P 7975 8500
 F 0 "R42" V 7925 8275 50  0000 C CNN
@@ -937,7 +914,7 @@ F 4 "101-504" V 7975 8500 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D25
+L HILTOP_Motherboard-rescue:LED-device D25
 U 1 1 5A9969C5
 P 8675 8500
 F 0 "D25" H 8475 8550 50  0000 C CNN
@@ -949,7 +926,7 @@ F 4 "110-007" H 8675 8500 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R43
+L HILTOP_Motherboard-rescue:R-device R43
 U 1 1 5A996BE5
 P 7975 8925
 F 0 "R43" V 7925 8700 50  0000 C CNN
@@ -961,7 +938,7 @@ F 4 "101-504" V 7975 8925 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D26
+L HILTOP_Motherboard-rescue:LED-device D26
 U 1 1 5A996BED
 P 8675 8925
 F 0 "D26" H 8475 8975 50  0000 C CNN
@@ -973,7 +950,7 @@ F 4 "110-005" H 8675 8925 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R44
+L HILTOP_Motherboard-rescue:R-device R44
 U 1 1 5A996CCA
 P 7975 9100
 F 0 "R44" V 7925 8875 50  0000 C CNN
@@ -985,7 +962,7 @@ F 4 "101-504" V 7975 9100 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D27
+L HILTOP_Motherboard-rescue:LED-device D27
 U 1 1 5A996CD2
 P 8675 9100
 F 0 "D27" H 8475 9150 50  0000 C CNN
@@ -997,7 +974,7 @@ F 4 "110-007" H 8675 9100 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R45
+L HILTOP_Motherboard-rescue:R-device R45
 U 1 1 5A996F11
 P 7975 9525
 F 0 "R45" V 7925 9300 50  0000 C CNN
@@ -1009,7 +986,7 @@ F 4 "101-504" V 7975 9525 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D28
+L HILTOP_Motherboard-rescue:LED-device D28
 U 1 1 5A996F19
 P 8675 9525
 F 0 "D28" H 8475 9575 50  0000 C CNN
@@ -1021,7 +998,7 @@ F 4 "110-005" H 8675 9525 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R46
+L HILTOP_Motherboard-rescue:R-device R46
 U 1 1 5A9971D2
 P 7975 9700
 F 0 "R46" V 7925 9475 50  0000 C CNN
@@ -1033,7 +1010,7 @@ F 4 "101-504" V 7975 9700 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D29
+L HILTOP_Motherboard-rescue:LED-device D29
 U 1 1 5A9971DA
 P 8675 9700
 F 0 "D29" H 8475 9750 50  0000 C CNN
@@ -1045,7 +1022,7 @@ F 4 "110-007" H 8675 9700 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R47
+L HILTOP_Motherboard-rescue:R-device R47
 U 1 1 5A9972FF
 P 7975 10125
 F 0 "R47" V 7925 9900 50  0000 C CNN
@@ -1057,7 +1034,7 @@ F 4 "101-504" V 7975 10125 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D30
+L HILTOP_Motherboard-rescue:LED-device D30
 U 1 1 5A997307
 P 8675 10125
 F 0 "D30" H 8475 10175 50  0000 C CNN
@@ -1069,7 +1046,7 @@ F 4 "110-005" H 8675 10125 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R48
+L HILTOP_Motherboard-rescue:R-device R48
 U 1 1 5A9974BC
 P 7975 10300
 F 0 "R48" V 7925 10075 50  0000 C CNN
@@ -1081,7 +1058,7 @@ F 4 "101-504" V 7975 10300 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D31
+L HILTOP_Motherboard-rescue:LED-device D31
 U 1 1 5A9974C4
 P 8675 10300
 F 0 "D31" H 8475 10350 50  0000 C CNN
@@ -1093,7 +1070,7 @@ F 4 "110-007" H 8675 10300 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R31
+L HILTOP_Motherboard-rescue:R-device R31
 U 1 1 5A99B9B0
 P 3300 7950
 F 0 "R31" H 3425 8000 50  0000 C CNN
@@ -1105,7 +1082,7 @@ F 4 "101-504" V 3300 7950 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D2
+L HILTOP_Motherboard-rescue:LED-device D2
 U 1 1 5A99B9B8
 P 3300 7600
 F 0 "D2" V 3350 7450 50  0000 C CNN
@@ -1117,7 +1094,7 @@ F 4 "110-004" V 3300 7600 50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R33
+L HILTOP_Motherboard-rescue:R-device R33
 U 1 1 5A9A4BBD
 P 3625 7950
 F 0 "R33" H 3750 8000 50  0000 C CNN
@@ -1129,7 +1106,7 @@ F 4 "101-504" V 3625 7950 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D4
+L HILTOP_Motherboard-rescue:LED-device D4
 U 1 1 5A9A4BC3
 P 3625 7600
 F 0 "D4" V 3675 7450 50  0000 C CNN
@@ -1141,7 +1118,7 @@ F 4 "110-004" V 3625 7600 50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R32
+L HILTOP_Motherboard-rescue:R-device R32
 U 1 1 5A9A5038
 P 3500 9400
 F 0 "R32" H 3625 9450 50  0000 C CNN
@@ -1153,7 +1130,7 @@ F 4 "101-504" V 3500 9400 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D3
+L HILTOP_Motherboard-rescue:LED-device D3
 U 1 1 5A9A503E
 P 3500 9050
 F 0 "D3" V 3550 8900 50  0000 C CNN
@@ -1224,10 +1201,6 @@ Wire Wire Line
 	7550 8625 10150 8625
 Wire Wire Line
 	7550 8725 10150 8725
-Wire Wire Line
-	7550 9225 10150 9225
-Wire Wire Line
-	7550 9325 10150 9325
 Wire Wire Line
 	7550 9825 10150 9825
 Wire Wire Line
@@ -1469,11 +1442,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 7025 3625 7025
 Wire Wire Line
-	1350 8600 1350 8550
-Wire Wire Line
-	1350 8550 2100 8550
-Wire Wire Line
-	1350 9000 1350 8900
+	1450 8550 2100 8550
 Wire Wire Line
 	1675 7275 1675 7325
 Wire Wire Line
@@ -1513,7 +1482,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 7325 4225 7325
 Wire Wire Line
-	3250 8750 3900 8750
+	3250 8750 4225 8750
 Wire Wire Line
 	7825 6525 7550 6525
 Wire Wire Line
@@ -1932,16 +1901,12 @@ Wire Wire Line
 Wire Wire Line
 	11225 8250 11225 8525
 NoConn ~ 7550 8825
-NoConn ~ 7550 9425
 NoConn ~ 7550 10025
 NoConn ~ 5150 8825
-NoConn ~ 5150 9425
 NoConn ~ 12400 5825
 NoConn ~ 12400 6900
 NoConn ~ 12800 7950
 NoConn ~ 5150 10025
-NoConn ~ 3250 8550
-NoConn ~ 3250 8850
 NoConn ~ 7550 8225
 NoConn ~ 5150 8225
 Wire Wire Line
@@ -1966,4 +1931,87 @@ Wire Wire Line
 Wire Wire Line
 	7550 7525 10525 7525
 Connection ~ 11225 8525
+$Comp
+L Devtank:SP3003-02XJ U47
+U 1 1 5F90CFEF
+P 11325 9375
+F 0 "U47" H 10925 9075 50  0000 C CNN
+F 1 "SP3003-02XJ" H 11125 9675 50  0000 C CNN
+F 2 "Devtank_PCB_Lib:SC70-5" H 11475 8875 50  0001 C CNN
+F 3 "DOCUMENTATION" H 11325 8975 50  0001 C CNN
+F 4 "153-004" H 11325 9375 50  0001 C CNN "Devtank"
+	1    11325 9375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR010
+U 1 1 5F90CFF5
+P 12375 9225
+F 0 "#PWR010" H 12375 9075 50  0001 C CNN
+F 1 "+5V" H 12375 9365 50  0000 C CNN
+F 2 "" H 12375 9225 50  0000 C CNN
+F 3 "" H 12375 9225 50  0000 C CNN
+	1    12375 9225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F90CFFB
+P 12200 9675
+F 0 "#PWR07" H 12200 9425 50  0001 C CNN
+F 1 "GND" H 12200 9525 50  0000 C CNN
+F 2 "" H 12200 9675 50  0000 C CNN
+F 3 "" H 12200 9675 50  0000 C CNN
+	1    12200 9675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 9525 10625 9525
+Wire Wire Line
+	12075 9525 12375 9525
+Wire Wire Line
+	12375 9525 12375 9225
+Wire Wire Line
+	12200 9675 12200 9375
+Wire Wire Line
+	12200 9375 12075 9375
+NoConn ~ 12075 9225
+Wire Wire Line
+	7550 9225 10625 9225
+Wire Wire Line
+	11350 8850 10625 8850
+Wire Wire Line
+	10625 8850 10625 9225
+Connection ~ 10625 9225
+Wire Wire Line
+	10625 9225 10925 9225
+Wire Wire Line
+	7550 9325 10500 9325
+Wire Wire Line
+	10500 9325 10500 9525
+Wire Wire Line
+	11350 9825 10625 9825
+Wire Wire Line
+	10625 9825 10625 9525
+Connection ~ 10625 9525
+Wire Wire Line
+	10625 9525 10925 9525
+Text Label 1450 8550 0    60   ~ 0
+USB6_EN
+Text Label 8400 9425 2    60   ~ 0
+USB6_EN
+Wire Wire Line
+	7550 9425 8400 9425
+Text Label 4475 9425 0    60   ~ 0
+OCS6
+Wire Wire Line
+	5150 9425 4475 9425
+Text Label 4225 8850 2    60   ~ 0
+OCS6
+Wire Wire Line
+	3250 8550 3750 8550
+Text HLabel 3750 8550 2    60   Output ~ 0
+PWR6_5V
+Wire Wire Line
+	3250 8850 4225 8850
 $EndSCHEMATC
