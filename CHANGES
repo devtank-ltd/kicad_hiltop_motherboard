@@ -61,3 +61,15 @@ iii) Cut track from R202 to 3.3V and re-route (mod wire) power to Vdd
 
 iv) Cut track from U40 (pin3) to +5V. Re-route to USB 5V power (pin 1) on J18
 
+Fixed alignment issue on Backplane connector. Move to the left 2mm.
+
+To Do:
+
+Add TVS diodes to main Power rails
+Look at swap connectors for fans
+look for replacement SD card ESD chip
+Add extra connectors for CAN and RS485
+Add OHW license details
+
+
+
