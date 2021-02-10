@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:HILTOP_Motherboard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 12
 Title "HILTOP Motherboard"
-Date "2019-07-03"
-Rev "Rev B"
+Date "2020-04-28"
+Rev "Rev C"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -284,7 +283,7 @@ $Comp
 L HILTOP_Motherboard-rescue:R-device R202
 U 1 1 5C3C0F83
 P 3825 2625
-F 0 "R202" H 3700 2575 50  0000 C CNN
+F 0 "R202" H 3650 2550 50  0000 C CNN
 F 1 "DNF" H 3675 2675 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3755 2625 50  0001 C CNN
 F 3 "" H 3825 2625 50  0001 C CNN

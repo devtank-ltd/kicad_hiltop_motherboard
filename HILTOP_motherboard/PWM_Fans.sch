@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:HILTOP_Motherboard-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 12
 Title "HILTOP Motherboard"
-Date "2019-07-03"
-Rev "Rev B"
+Date "2020-04-28"
+Rev "Rev C"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""

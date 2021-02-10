@@ -51,4 +51,13 @@ h) Expose unused USB channel 6 on USB2517 hub to vertical USB port on Motherboar
 
 i) Changed footprint for Y1 for a smaller package (5x3.2mm)
 
+Mods to Rev C
+
+i) Remove R201
+
+ii) Fit 10K 0603 to R202.
+
+iii) Cut track from R202 to 3.3V and re-route (mod wire) power to Vdd
+
+iv) Cut track from U40 (pin3) to +5V. Re-route to USB 5V power (pin 1) on J18
 
