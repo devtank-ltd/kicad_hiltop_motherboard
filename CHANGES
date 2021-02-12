@@ -70,6 +70,9 @@ Look at swap connectors for fans
 look for replacement SD card ESD chip
 Add extra connectors for CAN and RS485
 Add OHW license details
+add header for status LED
+camera I/O move
+
 
 
 

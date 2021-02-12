@@ -6658,7 +6658,7 @@ F 4 "106-011" H 4650 8150 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 8400 4650 8400
+	4450 8400 4525 8400
 Wire Wire Line
 	4650 8300 4650 8400
 Connection ~ 4650 8400
@@ -7103,30 +7103,6 @@ F 3 "" H 22175 4150 50  0000 C CNN
 	1    22175 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Devtank:CM1624 U46
-U 1 1 5EBFC669
-P 19500 5875
-F 0 "U46" H 19500 6542 50  0000 C CNN
-F 1 "CM1624" H 19500 6451 50  0000 C CNN
-F 2 "Package_SON:WSON-16_3.3x1.35_P0.4mm" H 20600 6425 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/CM1624-D.PDF" H 19100 6475 50  0001 C CNN
-	1    19500 5875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0471
-U 1 1 5F651B1E
-P 19500 6625
-F 0 "#PWR0471" H 19500 6375 50  0001 C CNN
-F 1 "GND" H 19500 6475 50  0000 C CNN
-F 2 "" H 19500 6625 50  0000 C CNN
-F 3 "" H 19500 6625 50  0000 C CNN
-	1    19500 6625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19500 6625 19500 6575
 Wire Wire Line
 	18700 5475 18200 5475
 Wire Wire Line
@@ -7140,8 +7116,6 @@ Wire Wire Line
 Wire Wire Line
 	18700 6175 18200 6175
 Wire Wire Line
-	20300 5475 20475 5475
-Wire Wire Line
 	21025 5550 20825 5550
 Wire Wire Line
 	21025 5650 20825 5650
@@ -7153,28 +7127,6 @@ Wire Wire Line
 	21025 6250 20825 6250
 Wire Wire Line
 	21025 5950 20825 5950
-Wire Wire Line
-	20300 5575 20475 5575
-Wire Wire Line
-	20300 5675 20475 5675
-Wire Wire Line
-	20300 5975 20475 5975
-Wire Wire Line
-	20300 6075 20475 6075
-Wire Wire Line
-	20300 6175 20475 6175
-Text Label 20475 6175 2    60   ~ 0
-D2
-Text Label 20475 6075 2    60   ~ 0
-D3
-Text Label 20475 5975 2    60   ~ 0
-CMD
-Text Label 20475 5675 2    60   ~ 0
-CLK
-Text Label 20475 5575 2    60   ~ 0
-D0
-Text Label 20475 5475 2    60   ~ 0
-D1
 Text Label 20825 6250 0    60   ~ 0
 D1
 Text Label 20825 6150 0    60   ~ 0
@@ -7187,53 +7139,6 @@ Text Label 20825 5650 0    60   ~ 0
 D3
 Text Label 20825 5550 0    60   ~ 0
 D2
-$Comp
-L power:+3V3 #PWR0472
-U 1 1 612EA248
-P 20575 4825
-F 0 "#PWR0472" H 20575 4675 50  0001 C CNN
-F 1 "+3V3" H 20575 4965 50  0000 C CNN
-F 2 "" H 20575 4825 50  0000 C CNN
-F 3 "" H 20575 4825 50  0000 C CNN
-	1    20575 4825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20575 4825 20575 5050
-Wire Wire Line
-	20300 5875 20575 5875
-$Comp
-L HILTOP_Motherboard-rescue:C-device C1
-U 1 1 6143B598
-P 20325 5050
-F 0 "C1" V 20225 4900 50  0000 L CNN
-F 1 "100nF" V 20225 5100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 20363 4900 50  0001 C CNN
-F 3 "" H 20325 5050 50  0000 C CNN
-F 4 "105-002" V 20325 5050 60  0001 C CNN "Devtank"
-	1    20325 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	20475 5050 20575 5050
-Connection ~ 20575 5050
-Wire Wire Line
-	20575 5050 20575 5875
-$Comp
-L power:GND #PWR0473
-U 1 1 6158BFF0
-P 20100 5150
-F 0 "#PWR0473" H 20100 4900 50  0001 C CNN
-F 1 "GND" H 20100 5000 50  0000 C CNN
-F 2 "" H 20100 5150 50  0000 C CNN
-F 3 "" H 20100 5150 50  0000 C CNN
-	1    20100 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20100 5150 20100 5050
-Wire Wire Line
-	20100 5050 20175 5050
 Wire Wire Line
 	16300 13450 15700 13450
 Text Label 14450 13450 0    60   ~ 0
@@ -7487,4 +7392,32 @@ Text Label 6525 2900 0    60   ~ 0
 AUX_USB_P
 Text Label 6525 3000 0    60   ~ 0
 AUX_USB_N
+Text Label 18625 6175 2    60   ~ 0
+D2
+Text Label 18625 6075 2    60   ~ 0
+D3
+Text Label 18600 5975 2    60   ~ 0
+CMD
+Text Label 18575 5675 2    60   ~ 0
+CLK
+Text Label 18550 5575 2    60   ~ 0
+D0
+Text Label 18550 5475 2    60   ~ 0
+D1
+$Comp
+L HILTOP_Motherboard-rescue:TEST_1P TP97
+U 1 1 607F2F10
+P 4525 8475
+F 0 "TP97" V 4525 8725 50  0000 C CNN
+F 1 "TP" H 4525 8675 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4725 8475 50  0001 C CNN
+F 3 "" H 4725 8475 50  0000 C CNN
+	1    4525 8475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4525 8475 4525 8400
+Connection ~ 4525 8400
+Wire Wire Line
+	4525 8400 4650 8400
 $EndSCHEMATC
