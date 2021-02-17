@@ -5,16 +5,16 @@ $Descr A2 16535 23386 portrait
 encoding utf-8
 Sheet 4 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Devtank:TPD12S016 U23
+L HILTOP_Motherboard-rescue:TPD12S016-Devtank U23
 U 1 1 58C8C84B
 P 4175 19375
 F 0 "U23" H 3775 18525 50  0000 C CNN
@@ -26,7 +26,7 @@ F 4 "123-001" H 4175 19375 60  0001 C CNN "Devtank"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Devtank:DDR2_SODIMM_COMPUTE_MODULE_3 J13
+L HILTOP_Motherboard-rescue:DDR2_SODIMM_COMPUTE_MODULE_3-Devtank J13
 U 1 1 58C8E0D6
 P 8050 11075
 F 0 "J13" H 7650 5725 50  0000 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 11875 18525 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_3V3 #PWR0264
+L HILTOP_Motherboard-rescue:+CM_3V3-Devtank #PWR0264
 U 1 1 58CDF819
 P 10200 15525
 F 0 "#PWR0264" H 10200 15375 50  0001 C CNN
@@ -182,7 +182,7 @@ F 3 "" H 10200 15525 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_VDAC #PWR0261
+L HILTOP_Motherboard-rescue:+CM_VDAC-Devtank #PWR0261
 U 1 1 58CDF843
 P 10050 15275
 F 0 "#PWR0261" H 10050 15125 50  0001 C CNN
@@ -193,7 +193,7 @@ F 3 "" H 10050 15275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_3V3 #PWR0276
+L HILTOP_Motherboard-rescue:+CM_3V3-Devtank #PWR0276
 U 1 1 58CDF86D
 P 11425 19125
 F 0 "#PWR0276" H 11425 18975 50  0001 C CNN
@@ -204,7 +204,7 @@ F 3 "" H 11425 19125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_3V3 #PWR0250
+L HILTOP_Motherboard-rescue:+CM_3V3-Devtank #PWR0250
 U 1 1 58CE0542
 P 6550 15525
 F 0 "#PWR0250" H 6550 15375 50  0001 C CNN
@@ -215,7 +215,7 @@ F 3 "" H 6550 15525 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_VDAC #PWR0251
+L HILTOP_Motherboard-rescue:+CM_VDAC-Devtank #PWR0251
 U 1 1 58CE084D
 P 6750 15325
 F 0 "#PWR0251" H 6750 15175 50  0001 C CNN
@@ -226,7 +226,7 @@ F 3 "" H 6750 15325 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_VDAC #PWR0257
+L HILTOP_Motherboard-rescue:+CM_VDAC-Devtank #PWR0257
 U 1 1 58CE158C
 P 9375 19125
 F 0 "#PWR0257" H 9375 18975 50  0001 C CNN
@@ -237,7 +237,7 @@ F 3 "" H 9375 19125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_1V8 #PWR0260
+L HILTOP_Motherboard-rescue:+CM_1V8-Devtank #PWR0260
 U 1 1 58CE15AF
 P 9850 14975
 F 0 "#PWR0260" H 9850 14825 50  0001 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 9850 14975 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_1V8 #PWR0252
+L HILTOP_Motherboard-rescue:+CM_1V8-Devtank #PWR0252
 U 1 1 58CE15E2
 P 6950 15075
 F 0 "#PWR0252" H 6950 14925 50  0001 C CNN
@@ -282,7 +282,7 @@ F 3 "" H 11025 19675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_1V8 #PWR0267
+L HILTOP_Motherboard-rescue:+CM_1V8-Devtank #PWR0267
 U 1 1 58CE1D8C
 P 10575 19125
 F 0 "#PWR0267" H 10575 18975 50  0001 C CNN
@@ -362,7 +362,7 @@ SDX_D2
 Text HLabel 9950 7225 2    60   Output ~ 0
 SDX_D3
 $Comp
-L Devtank:+CM_3V3 #PWR0248
+L HILTOP_Motherboard-rescue:+CM_3V3-Devtank #PWR0248
 U 1 1 58CE7EA6
 P 6225 7950
 F 0 "#PWR0248" H 6225 7800 50  0001 C CNN
@@ -373,7 +373,7 @@ F 3 "" H 6225 7950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_3V3 #PWR0270
+L HILTOP_Motherboard-rescue:+CM_3V3-Devtank #PWR0270
 U 1 1 58CE8109
 P 10925 7975
 F 0 "#PWR0270" H 10925 7825 50  0001 C CNN
@@ -589,7 +589,7 @@ HDMI_CK_P
 Text Label 2775 19725 0    60   ~ 0
 HDMI_CK_N
 $Comp
-L Devtank:+CM_1V8 #PWR0233
+L HILTOP_Motherboard-rescue:+CM_1V8-Devtank #PWR0233
 U 1 1 59325D05
 P 3025 18075
 F 0 "#PWR0233" H 3025 17925 50  0001 C CNN
@@ -600,7 +600,7 @@ F 3 "" H 3025 18075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_3V3 #PWR0231
+L HILTOP_Motherboard-rescue:+CM_3V3-Devtank #PWR0231
 U 1 1 59325DF0
 P 2575 18075
 F 0 "#PWR0231" H 2575 17925 50  0001 C CNN
@@ -883,7 +883,7 @@ F 4 "105-007" H 12775 19475 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_5V #PWR0285
+L HILTOP_Motherboard-rescue:+CM_5V-Devtank #PWR0285
 U 1 1 5A76E760
 P 12325 19125
 F 0 "#PWR0285" H 12325 18975 50  0001 C CNN
@@ -905,7 +905,7 @@ F 3 "" H 12775 18525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_5V #PWR0266
+L HILTOP_Motherboard-rescue:+CM_5V-Devtank #PWR0266
 U 1 1 5A76EDE6
 P 10500 15875
 F 0 "#PWR0266" H 10500 15725 50  0001 C CNN
@@ -916,7 +916,7 @@ F 3 "" H 10500 15875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+CM_5V #PWR0249
+L HILTOP_Motherboard-rescue:+CM_5V-Devtank #PWR0249
 U 1 1 5A76FB57
 P 6250 15875
 F 0 "#PWR0249" H 6250 15725 50  0001 C CNN
@@ -927,7 +927,7 @@ F 3 "" H 6250 15875 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:BQ32000 U22
+L HILTOP_Motherboard-rescue:BQ32000-Devtank U22
 U 1 1 5A954FD3
 P 3375 3175
 F 0 "U22" H 3000 3875 50  0000 L CNN
@@ -1069,7 +1069,7 @@ F 3 "" H 1875 3725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:AT30TS75 U?
+L HILTOP_Motherboard-rescue:AT30TS75-Devtank U?
 U 1 1 5A94C016
 P 13425 2775
 AR Path="/5A94C016" Ref="U?"  Part="1" 

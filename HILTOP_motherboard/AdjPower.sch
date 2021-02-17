@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -22,7 +22,7 @@ PSU_SCL
 Text HLabel 10500 3200 0    60   Input ~ 0
 PWR_ENABLE
 $Comp
-L Devtank:LM5118 U8
+L HILTOP_Motherboard-rescue:LM5118-Devtank U8
 U 1 1 58E08D87
 P 4650 4300
 F 0 "U8" H 4250 3600 50  0000 C CNN
@@ -45,7 +45,7 @@ F 3 "" H 2050 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:ADS1015 U11
+L HILTOP_Motherboard-rescue:ADS1015-Devtank U11
 U 1 1 58DFE046
 P 14400 5100
 F 0 "U11" H 14050 5550 50  0000 L CNN
@@ -57,7 +57,7 @@ F 4 "124-001" H 14400 5100 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:MCP4725 U12
+L HILTOP_Motherboard-rescue:MCP4725-Devtank U12
 U 1 1 58DFEBB8
 P 13950 7800
 F 0 "U12" H 13550 8250 50  0000 L CNN
@@ -497,7 +497,7 @@ $EndComp
 Text HLabel 12300 6300 2    60   Output ~ 0
 VADJ_GND
 $Comp
-L Devtank:TLC271 U10
+L HILTOP_Motherboard-rescue:TLC271-Devtank U10
 U 1 1 58EA7C27
 P 8650 8850
 F 0 "U10" H 9000 9000 50  0000 L CNN
@@ -520,7 +520,7 @@ F 3 "" H 12000 7550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:SPST-NO RL1
+L HILTOP_Motherboard-rescue:SPST-NO-Devtank RL1
 U 1 1 58FEC418
 P 12550 4250
 F 0 "RL1" V 12950 4450 50  0000 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 12050 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:INA250 U9
+L HILTOP_Motherboard-rescue:INA250-Devtank U9
 U 1 1 58FFB89A
 P 10700 4550
 F 0 "U9" H 10950 5000 50  0000 C CNN
@@ -718,7 +718,7 @@ F 3 "" H 8700 8150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:-5V #PWR0324
+L HILTOP_Motherboard-rescue:-5V-Devtank #PWR0324
 U 1 1 5904EE57
 P 8700 9600
 F 0 "#PWR0324" H 8700 9700 50  0001 C CNN
@@ -1023,7 +1023,7 @@ F 3 "" H 4650 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:Q_NMOS_DS_POWERPAK Q1
+L HILTOP_Motherboard-rescue:Q_NMOS_DS_POWERPAK-Devtank Q1
 U 1 1 593D8AB2
 P 6800 3100
 F 0 "Q1" H 7000 3150 50  0000 L CNN
@@ -1035,7 +1035,7 @@ F 4 "172-001" H 6800 3100 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:Q_NMOS_DS_POWERPAK Q2
+L HILTOP_Motherboard-rescue:Q_NMOS_DS_POWERPAK-Devtank Q2
 U 1 1 593D9A34
 P 7350 5000
 F 0 "Q2" H 7550 5050 50  0000 L CNN

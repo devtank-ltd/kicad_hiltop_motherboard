@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 12 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -31,7 +31,7 @@ F 3 "" H 6550 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+5V_STBY #PWR0297
+L HILTOP_Motherboard-rescue:+5V_STBY-Devtank #PWR0297
 U 1 1 58D213A1
 P 3100 4200
 F 0 "#PWR0297" H 3100 4050 50  0001 C CNN
@@ -67,7 +67,7 @@ F 3 "" H 5200 6000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+5V_STBY #PWR0304
+L HILTOP_Motherboard-rescue:+5V_STBY-Devtank #PWR0304
 U 1 1 58D22774
 P 5200 4500
 F 0 "#PWR0304" H 5200 4350 50  0001 C CNN
@@ -133,7 +133,7 @@ Wire Wire Line
 	4500 5750 4500 5500
 Connection ~ 4500 5500
 $Comp
-L Devtank:MAX16054 U24
+L HILTOP_Motherboard-rescue:MAX16054-Devtank U24
 U 1 1 58D8CF7C
 P 3100 5650
 F 0 "U24" H 2850 5350 50  0000 C CNN
@@ -648,7 +648,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 4250 10450 4250
 $Comp
-L Devtank:LP2985 U28
+L HILTOP_Motherboard-rescue:LP2985-Devtank U28
 U 1 1 5916D0DB
 P 7650 5050
 F 0 "U28" H 7250 5550 50  0000 C CNN
@@ -811,7 +811,7 @@ F 4 "105-002" H 5100 2000 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:TPS54394 U27
+L HILTOP_Motherboard-rescue:TPS54394-Devtank U27
 U 1 1 59171F2D
 P 3750 2450
 F 0 "U27" H 3350 3200 50  0000 C CNN
@@ -1382,7 +1382,7 @@ F 3 "" H 1250 5750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Devtank:+5V_STBY #PWR074
+L HILTOP_Motherboard-rescue:+5V_STBY-Devtank #PWR074
 U 1 1 5EC078CC
 P 1800 5100
 F 0 "#PWR074" H 1800 4950 50  0001 C CNN
@@ -1393,7 +1393,7 @@ F 3 "" H 1800 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:74LVC1G3157 U48
+L HILTOP_Motherboard-rescue:74LVC1G3157-Devtank U48
 U 1 1 5EC02D31
 P 1800 5550
 F 0 "U48" H 1975 5325 50  0000 C CNN

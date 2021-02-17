@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -52,7 +52,7 @@ LAN_USB_P
 Text HLabel 9400 6500 2    60   Input ~ 0
 LAN_USB_N
 $Comp
-L Devtank:LAN7500 U7
+L HILTOP_Motherboard-rescue:LAN7500-Devtank U7
 U 1 1 58C6D418
 P 7150 5250
 F 0 "U7" H 7150 5150 50  0000 C CNN
@@ -64,7 +64,7 @@ F 4 "123-003" H 7150 5250 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+1V2_LAN_A #PWR0156
+L HILTOP_Motherboard-rescue:+1V2_LAN_A-Devtank #PWR0156
 U 1 1 590A6232
 P 7400 2550
 F 0 "#PWR0156" H 7400 2400 50  0001 C CNN
@@ -75,7 +75,7 @@ F 3 "" H 7400 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+1V2_LAN_PLL #PWR0152
+L HILTOP_Motherboard-rescue:+1V2_LAN_PLL-Devtank #PWR0152
 U 1 1 590A6254
 P 7000 2550
 F 0 "#PWR0152" H 7000 2400 50  0001 C CNN
@@ -86,7 +86,7 @@ F 3 "" H 7000 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+1V2_USB_PLL #PWR0150
+L HILTOP_Motherboard-rescue:+1V2_USB_PLL-Devtank #PWR0150
 U 1 1 590A6276
 P 6700 2550
 F 0 "#PWR0150" H 6700 2400 50  0001 C CNN
@@ -97,7 +97,7 @@ F 3 "" H 6700 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+3V3_LAN_A #PWR0159
+L HILTOP_Motherboard-rescue:+3V3_LAN_A-Devtank #PWR0159
 U 1 1 590A6298
 P 8350 2550
 F 0 "#PWR0159" H 8350 2400 50  0001 C CNN
@@ -130,7 +130,7 @@ F 3 "" H 7950 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+1V2_USB_PLL #PWR0148
+L HILTOP_Motherboard-rescue:+1V2_USB_PLL-Devtank #PWR0148
 U 1 1 590A71EA
 P 6200 8300
 F 0 "#PWR0148" H 6200 8150 50  0001 C CNN
@@ -141,7 +141,7 @@ F 3 "" H 6200 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+1V2_LAN_PLL #PWR0153
+L HILTOP_Motherboard-rescue:+1V2_LAN_PLL-Devtank #PWR0153
 U 1 1 590A722D
 P 7050 8300
 F 0 "#PWR0153" H 7050 8150 50  0001 C CNN
@@ -163,7 +163,7 @@ F 3 "" H 3100 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+1V2_LAN_A #PWR0139
+L HILTOP_Motherboard-rescue:+1V2_LAN_A-Devtank #PWR0139
 U 1 1 590A72DD
 P 3850 8300
 F 0 "#PWR0139" H 3850 8150 50  0001 C CNN
@@ -174,7 +174,7 @@ F 3 "" H 3850 8300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+3V3_LAN_A #PWR0160
+L HILTOP_Motherboard-rescue:+3V3_LAN_A-Devtank #PWR0160
 U 1 1 590A734A
 P 8450 8300
 F 0 "#PWR0160" H 8450 8150 50  0001 C CNN
@@ -319,7 +319,7 @@ F 4 "101-028" H 10250 3400 60  0001 C CNN "Devtank"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Devtank:+2V5_LAN_A #PWR0167
+L HILTOP_Motherboard-rescue:+2V5_LAN_A-Devtank #PWR0167
 U 1 1 590BD202
 P 10250 2725
 F 0 "#PWR0167" H 10250 2575 50  0001 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 9800 5850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+3V3_LAN_A #PWR0168
+L HILTOP_Motherboard-rescue:+3V3_LAN_A-Devtank #PWR0168
 U 1 1 590C3AC5
 P 10300 5550
 F 0 "#PWR0168" H 10300 5400 50  0001 C CNN

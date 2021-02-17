@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -127,7 +127,7 @@ F 4 "101-044" V 7900 2475 60  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Crystal_GND24 Y1
+L HILTOP_Motherboard-rescue:Crystal_GND24-Device Y1
 U 1 1 58CDD1CB
 P 4575 3475
 F 0 "Y1" V 4725 3600 50  0000 C CNN
@@ -643,7 +643,7 @@ $EndComp
 Text Notes 8125 1025 0    60   ~ 0
 Default Config - 101\nInternal Defaults\nDynamic Power (local)\nUSB LED Mode
 $Comp
-L Devtank:MIC2026-1YM U2
+L HILTOP_Motherboard-rescue:MIC2026-1YM-Devtank U2
 U 1 1 5A95A96A
 P 2700 7175
 F 0 "U2" H 2450 6775 50  0000 C CNN
@@ -655,7 +655,7 @@ F 4 "153-003" H 2700 7175 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:MIC2026-1YM U4
+L HILTOP_Motherboard-rescue:MIC2026-1YM-Devtank U4
 U 1 1 5A97EF81
 P 2700 8700
 F 0 "U4" H 2450 8300 50  0000 C CNN
@@ -1163,7 +1163,7 @@ F 3 "" H 3500 9650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:SP3003-02XJ U5
+L HILTOP_Motherboard-rescue:SP3003-02XJ-Devtank U5
 U 1 1 5A940AEC
 P 11650 5975
 F 0 "U5" H 11250 5675 50  0000 C CNN
@@ -1642,7 +1642,7 @@ Wire Wire Line
 Wire Wire Line
 	12525 5975 12400 5975
 $Comp
-L Devtank:SP3003-02XJ U6
+L HILTOP_Motherboard-rescue:SP3003-02XJ-Devtank U6
 U 1 1 5A94659D
 P 11650 7050
 F 0 "U6" H 11250 6750 50  0000 C CNN
@@ -1718,7 +1718,7 @@ Wire Wire Line
 Wire Wire Line
 	10175 5925 10825 5925
 $Comp
-L Devtank:SP3003-02XJ U14
+L HILTOP_Motherboard-rescue:SP3003-02XJ-Devtank U14
 U 1 1 5A948EB7
 P 12050 8100
 F 0 "U14" H 11650 7800 50  0000 C CNN
@@ -1921,7 +1921,7 @@ Wire Wire Line
 	7550 7525 10525 7525
 Connection ~ 11225 8525
 $Comp
-L Devtank:SP3003-02XJ U47
+L HILTOP_Motherboard-rescue:SP3003-02XJ-Devtank U47
 U 1 1 5F90CFEF
 P 11325 9375
 F 0 "U47" H 10925 9075 50  0000 C CNN

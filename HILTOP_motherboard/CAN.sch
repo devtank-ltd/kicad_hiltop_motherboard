@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -94,7 +94,7 @@ F 4 "105-002" H 3125 2025 60  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Devtank:MCP2561FD U36
+L HILTOP_Motherboard-rescue:MCP2561FD-Devtank U36
 U 1 1 5A724F50
 P 9550 2575
 F 0 "U36" H 9150 2175 50  0000 C CNN
@@ -108,7 +108,7 @@ $EndComp
 Text Notes 7100 3575 0    60   ~ 0
 Isolation Options:\n(Pin Compatible)\nADuM1201\nISO7221
 $Comp
-L Devtank:ADuM1201 U34
+L HILTOP_Motherboard-rescue:ADuM1201-Devtank U34
 U 1 1 5A72CF9F
 P 7500 2875
 F 0 "U34" H 7100 2825 50  0000 L CNN
@@ -120,7 +120,7 @@ F 4 "117-002" H 7500 2875 50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+5V_ISO1 #PWR0376
+L HILTOP_Motherboard-rescue:+5V_ISO1-Devtank #PWR0376
 U 1 1 5A72D1D4
 P 8500 1925
 F 0 "#PWR0376" H 8500 1775 50  0001 C CNN
@@ -145,7 +145,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 2775 7000 2775
 $Comp
-L Devtank:GND_ISO1 #PWR0374
+L HILTOP_Motherboard-rescue:GND_ISO1-Devtank #PWR0374
 U 1 1 5A72D8C5
 P 8250 3475
 F 0 "#PWR0374" H 8250 3225 50  0001 C CNN
@@ -190,7 +190,7 @@ Wire Wire Line
 	8650 2975 8250 2975
 Connection ~ 8250 2975
 $Comp
-L Devtank:+5V_ISO1 #PWR0377
+L HILTOP_Motherboard-rescue:+5V_ISO1-Devtank #PWR0377
 U 1 1 5A72F267
 P 9500 7725
 F 0 "#PWR0377" H 9500 7575 50  0001 C CNN
@@ -206,7 +206,7 @@ Wire Wire Line
 	9850 7775 9500 7775
 Connection ~ 9500 7775
 $Comp
-L Devtank:GND_ISO1 #PWR0378
+L HILTOP_Motherboard-rescue:GND_ISO1-Devtank #PWR0378
 U 1 1 5A72F44A
 P 9500 8375
 F 0 "#PWR0378" H 9500 8125 50  0001 C CNN
@@ -222,7 +222,7 @@ Wire Wire Line
 	9850 8275 9500 8275
 Connection ~ 9500 8275
 $Comp
-L Devtank:CAN_Filter_Choke FL?
+L HILTOP_Motherboard-rescue:CAN_Filter_Choke-Devtank FL?
 U 1 1 5A730278
 P 11200 2575
 AR Path="/5A730278" Ref="FL?"  Part="1" 
@@ -333,7 +333,7 @@ Wire Wire Line
 	11850 2825 11850 2475
 Connection ~ 11850 2475
 $Comp
-L Devtank:GND_ISO1 #PWR0382
+L HILTOP_Motherboard-rescue:GND_ISO1-Devtank #PWR0382
 U 1 1 5A73402C
 P 10550 3275
 F 0 "#PWR0382" H 10550 3025 50  0001 C CNN
@@ -344,7 +344,7 @@ F 3 "" H 10550 3275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO1 #PWR0384
+L HILTOP_Motherboard-rescue:GND_ISO1-Devtank #PWR0384
 U 1 1 5A734109
 P 11600 3275
 F 0 "#PWR0384" H 11600 3025 50  0001 C CNN
@@ -369,7 +369,7 @@ Wire Wire Line
 	10550 3125 10550 3175
 Connection ~ 10550 3225
 $Comp
-L Devtank:GND_ISO1 #PWR0386
+L HILTOP_Motherboard-rescue:GND_ISO1-Devtank #PWR0386
 U 1 1 5A734385
 P 12250 3275
 F 0 "#PWR0386" H 12250 3025 50  0001 C CNN
@@ -388,7 +388,7 @@ Wire Wire Line
 	12350 2775 12350 2675
 Connection ~ 12350 2675
 $Comp
-L Devtank:MCP2517FD U31
+L HILTOP_Motherboard-rescue:MCP2517FD-Devtank U31
 U 1 1 5A735F1E
 P 4975 5675
 F 0 "U31" H 5025 7800 60  0000 C CNN
@@ -506,7 +506,7 @@ F 4 "105-002" H 3700 4600 60  0001 C CNN "Devtank"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Devtank:MCP2561FD U35
+L HILTOP_Motherboard-rescue:MCP2561FD-Devtank U35
 U 1 1 5AC9B9C3
 P 9525 5375
 F 0 "U35" H 9125 4975 50  0000 C CNN
@@ -520,7 +520,7 @@ $EndComp
 Text Notes 7075 6375 0    60   ~ 0
 Isolation Options:\n(Pin Compatible)\nADuM1201\nISO7221
 $Comp
-L Devtank:ADuM1201 U33
+L HILTOP_Motherboard-rescue:ADuM1201-Devtank U33
 U 1 1 5AC9B9CA
 P 7475 5675
 F 0 "U33" H 7075 5625 50  0000 L CNN
@@ -568,7 +568,7 @@ Wire Wire Line
 	8625 5775 8225 5775
 Connection ~ 8225 5775
 $Comp
-L Devtank:CAN_Filter_Choke FL1
+L HILTOP_Motherboard-rescue:CAN_Filter_Choke-Devtank FL1
 U 1 1 5AC9B9EF
 P 11175 5375
 F 0 "FL1" H 11175 5550 50  0000 C CNN
@@ -684,7 +684,7 @@ Wire Wire Line
 	12325 5575 12325 5475
 Connection ~ 12325 5475
 $Comp
-L Devtank:MCP2517FD U30
+L HILTOP_Motherboard-rescue:MCP2517FD-Devtank U30
 U 1 1 5AC9BA59
 P 4950 8475
 F 0 "U30" H 5000 10600 60  0000 C CNN
@@ -773,7 +773,7 @@ Wire Wire Line
 Wire Wire Line
 	10675 8175 10675 8275
 $Comp
-L Devtank:+5V_ISO2 #PWR0379
+L HILTOP_Motherboard-rescue:+5V_ISO2-Devtank #PWR0379
 U 1 1 5AC9D4BC
 P 10325 7725
 F 0 "#PWR0379" H 10325 7575 50  0001 C CNN
@@ -784,7 +784,7 @@ F 3 "" H 10325 7725 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO2 #PWR0380
+L HILTOP_Motherboard-rescue:GND_ISO2-Devtank #PWR0380
 U 1 1 5AC9D533
 P 10325 8375
 F 0 "#PWR0380" H 10325 8125 50  0001 C CNN
@@ -795,7 +795,7 @@ F 3 "" H 10325 8375 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+5V_ISO2 #PWR0375
+L HILTOP_Motherboard-rescue:+5V_ISO2-Devtank #PWR0375
 U 1 1 5ACA9D31
 P 8475 4725
 F 0 "#PWR0375" H 8475 4575 50  0001 C CNN
@@ -806,7 +806,7 @@ F 3 "" H 8475 4725 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO2 #PWR0373
+L HILTOP_Motherboard-rescue:GND_ISO2-Devtank #PWR0373
 U 1 1 5ACAA030
 P 8225 6275
 F 0 "#PWR0373" H 8225 6025 50  0001 C CNN
@@ -817,7 +817,7 @@ F 3 "" H 8225 6275 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO2 #PWR0381
+L HILTOP_Motherboard-rescue:GND_ISO2-Devtank #PWR0381
 U 1 1 5ACAA233
 P 10525 6075
 F 0 "#PWR0381" H 10525 5825 50  0001 C CNN
@@ -828,7 +828,7 @@ F 3 "" H 10525 6075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO2 #PWR0383
+L HILTOP_Motherboard-rescue:GND_ISO2-Devtank #PWR0383
 U 1 1 5ACAA33A
 P 11575 6075
 F 0 "#PWR0383" H 11575 5825 50  0001 C CNN
@@ -839,7 +839,7 @@ F 3 "" H 11575 6075 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO2 #PWR0385
+L HILTOP_Motherboard-rescue:GND_ISO2-Devtank #PWR0385
 U 1 1 5ACAA4F5
 P 12225 6075
 F 0 "#PWR0385" H 12225 5825 50  0001 C CNN
@@ -1241,7 +1241,7 @@ Wire Wire Line
 Connection ~ 1900 9225
 Connection ~ 4225 9225
 $Comp
-L Devtank:CME0303S3C U29
+L HILTOP_Motherboard-rescue:CME0303S3C-Devtank U29
 U 1 1 5AFC05A8
 P 2875 9075
 F 0 "U29" H 2475 8775 50  0000 C CNN
@@ -1351,7 +1351,7 @@ Wire Wire Line
 Connection ~ 5725 9225
 Connection ~ 8150 9225
 $Comp
-L Devtank:CME0303S3C U32
+L HILTOP_Motherboard-rescue:CME0303S3C-Devtank U32
 U 1 1 5AFC05F7
 P 6700 9075
 F 0 "U32" H 6300 8775 50  0000 C CNN
@@ -1399,7 +1399,7 @@ Wire Wire Line
 Connection ~ 8475 9225
 Connection ~ 8475 8750
 $Comp
-L Devtank:+5V_ISO1 #PWR0355
+L HILTOP_Motherboard-rescue:+5V_ISO1-Devtank #PWR0355
 U 1 1 5AFC07F3
 P 4550 8575
 F 0 "#PWR0355" H 4550 8425 50  0001 C CNN
@@ -1410,7 +1410,7 @@ F 3 "" H 4550 8575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO1 #PWR0356
+L HILTOP_Motherboard-rescue:GND_ISO1-Devtank #PWR0356
 U 1 1 5AFC0A3A
 P 4550 9400
 F 0 "#PWR0356" H 4550 9150 50  0001 C CNN
@@ -1421,7 +1421,7 @@ F 3 "" H 4550 9400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+5V_ISO2 #PWR0371
+L HILTOP_Motherboard-rescue:+5V_ISO2-Devtank #PWR0371
 U 1 1 5AFC0CE9
 P 8475 8575
 F 0 "#PWR0371" H 8475 8425 50  0001 C CNN
@@ -1432,7 +1432,7 @@ F 3 "" H 8475 8575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:GND_ISO2 #PWR0372
+L HILTOP_Motherboard-rescue:GND_ISO2-Devtank #PWR0372
 U 1 1 5AFC1068
 P 8475 9400
 F 0 "#PWR0372" H 8475 9150 50  0001 C CNN

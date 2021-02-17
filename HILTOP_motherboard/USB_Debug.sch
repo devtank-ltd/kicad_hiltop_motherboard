@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -431,7 +431,7 @@ F 3 "" H 4875 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:SP3003-02XJ U?
+L HILTOP_Motherboard-rescue:SP3003-02XJ-Devtank U?
 U 1 1 5C3985E5
 P 4000 4900
 AR Path="/589A1B39/5C3985E5" Ref="U?"  Part="1" 

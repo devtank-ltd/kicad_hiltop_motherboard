@@ -1,0 +1,393 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 12
+Title "HILTOP Motherboard"
+Date "2020-04-28"
+Rev "Rev C"
+Comp "Devtank Ltd"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4425 2450 0    60   Input ~ 0
+PWW_CTRL
+Text HLabel 2175 6350 0    60   Input ~ 0
+FAN_PWR
+Text HLabel 7750 2150 2    60   Output ~ 0
+FAN1_OUT
+Text HLabel 7725 4050 2    60   Output ~ 0
+FAN2_OUT
+$Comp
+L power:GND #PWR0419
+U 1 1 5F1521CA
+P 6300 2925
+F 0 "#PWR0419" H 6300 2675 50  0001 C CNN
+F 1 "GND" H 6300 2775 50  0000 C CNN
+F 2 "" H 6300 2925 50  0001 C CNN
+F 3 "" H 6300 2925 50  0001 C CNN
+	1    6300 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2000 6300 2150
+$Comp
+L HILTOP_Motherboard-rescue:R-device R215
+U 1 1 5F1521D2
+P 5600 2450
+F 0 "R215" V 5500 2275 50  0000 C CNN
+F 1 "470R" V 5500 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 2450 50  0001 C CNN
+F 3 "" H 5600 2450 50  0000 C CNN
+F 4 "101-001" V 5600 2450 60  0001 C CNN "Devtank"
+	1    5600 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:Q_NMOS_GSD-device Q?
+U 1 1 5F1521D9
+P 6200 2450
+AR Path="/5F1521D9" Ref="Q?"  Part="1" 
+AR Path="/5F035FD1/5F1521D9" Ref="Q5"  Part="1" 
+F 0 "Q5" H 6400 2500 50  0000 L CNN
+F 1 "ZXMN6A07F" H 6400 2400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6400 2550 50  0001 C CNN
+F 3 "" H 6200 2450 50  0001 C CNN
+F 4 "170-002" H 6200 2450 50  0001 C CNN "Devtank"
+	1    6200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:R-device R?
+U 1 1 5F1521E1
+P 5875 2650
+AR Path="/5F1521E1" Ref="R?"  Part="1" 
+AR Path="/5F035FD1/5F1521E1" Ref="R217"  Part="1" 
+F 0 "R217" H 5750 2700 50  0000 C CNN
+F 1 "10K" H 5750 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 2650 50  0001 C CNN
+F 3 "" H 5875 2650 50  0000 C CNN
+F 4 "101-010" H 5875 2650 60  0001 C CNN "Devtank"
+	1    5875 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2650 6300 2850
+Wire Wire Line
+	5875 2500 5875 2450
+Wire Wire Line
+	5750 2450 5875 2450
+Wire Wire Line
+	5875 2850 6300 2850
+Connection ~ 6300 2850
+Wire Wire Line
+	5875 2850 5875 2800
+Connection ~ 5875 2450
+Wire Wire Line
+	6300 2850 6300 2925
+Wire Wire Line
+	5875 2450 6000 2450
+Wire Wire Line
+	4900 2450 5450 2450
+$Comp
+L power:GND #PWR0421
+U 1 1 5F152480
+P 6300 4800
+F 0 "#PWR0421" H 6300 4550 50  0001 C CNN
+F 1 "GND" H 6300 4650 50  0000 C CNN
+F 2 "" H 6300 4800 50  0001 C CNN
+F 3 "" H 6300 4800 50  0001 C CNN
+	1    6300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3900 6300 4050
+$Comp
+L HILTOP_Motherboard-rescue:R-device R216
+U 1 1 5F152488
+P 5600 4325
+F 0 "R216" V 5500 4175 50  0000 C CNN
+F 1 "470R" V 5500 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 4325 50  0001 C CNN
+F 3 "" H 5600 4325 50  0000 C CNN
+F 4 "101-001" V 5600 4325 60  0001 C CNN "Devtank"
+	1    5600 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:Q_NMOS_GSD-device Q6
+U 1 1 5F15248F
+P 6200 4325
+F 0 "Q6" H 6400 4375 50  0000 L CNN
+F 1 "ZXMN6A07F" H 6400 4275 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6400 4425 50  0001 C CNN
+F 3 "" H 6200 4325 50  0001 C CNN
+F 4 "170-002" H 6200 4325 50  0001 C CNN "Devtank"
+	1    6200 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:R-device R218
+U 1 1 5F152497
+P 5875 4525
+F 0 "R218" H 5750 4575 50  0000 C CNN
+F 1 "10K" H 5750 4475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 4525 50  0001 C CNN
+F 3 "" H 5875 4525 50  0000 C CNN
+F 4 "101-010" H 5875 4525 60  0001 C CNN "Devtank"
+	1    5875 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4525 6300 4725
+Wire Wire Line
+	5875 4375 5875 4325
+Wire Wire Line
+	5750 4325 5875 4325
+Wire Wire Line
+	5875 4725 6300 4725
+Connection ~ 6300 4725
+Wire Wire Line
+	5875 4725 5875 4675
+Connection ~ 5875 4325
+Wire Wire Line
+	6300 4725 6300 4800
+Wire Wire Line
+	5875 4325 6000 4325
+Wire Wire Line
+	4900 4325 5450 4325
+$Comp
+L HILTOP_Motherboard-rescue:R-device R?
+U 1 1 5F152601
+P 6300 1850
+AR Path="/5F152601" Ref="R?"  Part="1" 
+AR Path="/5F035FD1/5F152601" Ref="R219"  Part="1" 
+F 0 "R219" H 6175 1900 50  0000 C CNN
+F 1 "DNF" H 6175 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 1850 50  0001 C CNN
+F 3 "" H 6300 1850 50  0000 C CNN
+	1    6300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:R-device R?
+U 1 1 5F1526AA
+P 6300 3750
+AR Path="/5F1526AA" Ref="R?"  Part="1" 
+AR Path="/5F035FD1/5F1526AA" Ref="R220"  Part="1" 
+F 0 "R220" H 6175 3800 50  0000 C CNN
+F 1 "DNF" H 6175 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 3750 50  0001 C CNN
+F 3 "" H 6300 3750 50  0000 C CNN
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0418
+U 1 1 5F152AD8
+P 6300 1575
+F 0 "#PWR0418" H 6300 1425 50  0001 C CNN
+F 1 "+5V" H 6315 1748 50  0000 C CNN
+F 2 "" H 6300 1575 50  0001 C CNN
+F 3 "" H 6300 1575 50  0001 C CNN
+	1    6300 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1575 6300 1700
+$Comp
+L power:+5V #PWR0420
+U 1 1 5F152DB3
+P 6300 3475
+F 0 "#PWR0420" H 6300 3325 50  0001 C CNN
+F 1 "+5V" H 6315 3648 50  0000 C CNN
+F 2 "" H 6300 3475 50  0001 C CNN
+F 3 "" H 6300 3475 50  0001 C CNN
+	1    6300 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3475 6300 3600
+Wire Wire Line
+	6300 2150 7750 2150
+Connection ~ 6300 2150
+Wire Wire Line
+	6300 2150 6300 2250
+Wire Wire Line
+	6300 4050 7725 4050
+Connection ~ 6300 4050
+Wire Wire Line
+	6300 4050 6300 4125
+Wire Wire Line
+	4900 4325 4900 2450
+Wire Wire Line
+	4900 2450 4425 2450
+Connection ~ 4900 2450
+Text HLabel 4200 5150 2    60   Output ~ 0
+12V_SW_LOAD
+$Comp
+L power:GND #PWR0281
+U 1 1 5C6F6F0B
+P 3175 6825
+F 0 "#PWR0281" H 3175 6575 50  0001 C CNN
+F 1 "GND" H 3175 6675 50  0000 C CNN
+F 2 "" H 3175 6825 50  0001 C CNN
+F 3 "" H 3175 6825 50  0001 C CNN
+	1    3175 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:Q_NMOS_GSD-device Q7
+U 1 1 5C6F6F19
+P 3075 6350
+F 0 "Q7" H 3275 6400 50  0000 L CNN
+F 1 "ZXMN6A07F" H 3275 6300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3275 6450 50  0001 C CNN
+F 3 "" H 3075 6350 50  0001 C CNN
+F 4 "170-002" H 3075 6350 50  0001 C CNN "Devtank"
+	1    3075 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:R-device R159
+U 1 1 5C6F6F21
+P 2750 6550
+F 0 "R159" H 2625 6600 50  0000 C CNN
+F 1 "10K" H 2625 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 6550 50  0001 C CNN
+F 3 "" H 2750 6550 50  0000 C CNN
+F 4 "101-010" H 2750 6550 60  0001 C CNN "Devtank"
+	1    2750 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 6550 3175 6750
+Wire Wire Line
+	2750 6400 2750 6350
+Wire Wire Line
+	2750 6750 3175 6750
+Connection ~ 3175 6750
+Wire Wire Line
+	2750 6750 2750 6700
+Connection ~ 2750 6350
+Wire Wire Line
+	3175 6750 3175 6825
+Wire Wire Line
+	2750 6350 2875 6350
+$Comp
+L HILTOP_Motherboard-rescue:Q_PMOS_GSD-device Q8
+U 1 1 5C6F7F86
+P 3775 5250
+F 0 "Q8" V 4118 5250 50  0000 C CNN
+F 1 "SSM3J328R" V 4027 5250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3975 5350 50  0001 C CNN
+F 3 "" H 3775 5250 50  0001 C CNN
+F 4 "173-003" V 3775 5250 50  0001 C CNN "Devtank"
+	1    3775 5250
+	0    1    -1   0   
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:R-device R184
+U 1 1 5C6F9478
+P 3175 5400
+F 0 "R184" H 3050 5450 50  0000 C CNN
+F 1 "10K" H 3050 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3105 5400 50  0001 C CNN
+F 3 "" H 3175 5400 50  0000 C CNN
+F 4 "101-010" H 3175 5400 60  0001 C CNN "Devtank"
+	1    3175 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HILTOP_Motherboard-rescue:R-device R185
+U 1 1 5C6F9600
+P 3175 5900
+F 0 "R185" H 3050 5950 50  0000 C CNN
+F 1 "10K" H 3050 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3105 5900 50  0001 C CNN
+F 3 "" H 3175 5900 50  0000 C CNN
+F 4 "101-010" H 3175 5900 60  0001 C CNN "Devtank"
+	1    3175 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5150 2800 4975
+$Comp
+L power:+12V #PWR0280
+U 1 1 5C6FA6A6
+P 2800 4975
+F 0 "#PWR0280" H 2800 4825 50  0001 C CNN
+F 1 "+12V" H 2815 5148 50  0000 C CNN
+F 2 "" H 2800 4975 50  0001 C CNN
+F 3 "" H 2800 4975 50  0001 C CNN
+	1    2800 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5150 4125 5150
+Wire Wire Line
+	3775 5450 3775 5650
+Wire Wire Line
+	3775 5650 3400 5650
+Wire Wire Line
+	3175 5650 3175 5750
+Wire Wire Line
+	3175 5250 3175 5150
+Connection ~ 3175 5150
+Wire Wire Line
+	3175 5150 2800 5150
+Wire Wire Line
+	3175 5550 3175 5650
+Connection ~ 3175 5650
+Wire Wire Line
+	3175 6050 3175 6150
+Wire Wire Line
+	2175 6350 2750 6350
+$Comp
+L HILTOP_Motherboard-rescue:C-device C237
+U 1 1 5C708943
+P 3400 5400
+F 0 "C237" H 3515 5446 50  0000 L CNN
+F 1 "DNF" H 3515 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 5250 50  0001 C CNN
+F 3 "" H 3400 5400 50  0001 C CNN
+	1    3400 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 5150 3400 5150
+$Comp
+L HILTOP_Motherboard-rescue:C-device C238
+U 1 1 5C70A734
+P 4125 5400
+F 0 "C238" H 4010 5354 50  0000 R CNN
+F 1 "DNF" H 4010 5445 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4163 5250 50  0001 C CNN
+F 3 "" H 4125 5400 50  0001 C CNN
+	1    4125 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4125 5250 4125 5150
+Connection ~ 4125 5150
+Wire Wire Line
+	4125 5150 3975 5150
+Wire Wire Line
+	4125 5550 4125 5650
+Wire Wire Line
+	4125 5650 3775 5650
+Connection ~ 3775 5650
+Wire Wire Line
+	3400 5550 3400 5650
+Connection ~ 3400 5650
+Wire Wire Line
+	3400 5650 3175 5650
+Wire Wire Line
+	3400 5250 3400 5150
+Connection ~ 3400 5150
+Wire Wire Line
+	3400 5150 3575 5150
+$EndSCHEMATC

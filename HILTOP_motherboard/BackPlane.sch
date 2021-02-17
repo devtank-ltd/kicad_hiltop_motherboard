@@ -5,10 +5,10 @@ $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 8 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -105,7 +105,7 @@ F 3 "" H 3150 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:HILTOP_PCIE-64_CONN J24
+L HILTOP_Motherboard-rescue:HILTOP_PCIE-64_CONN-Devtank J24
 U 1 1 5F3C0F7D
 P 4275 4825
 F 0 "J24" H 3525 6650 50  0000 C CNN

@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 12
 Title "HILTOP Motherboard"
-Date "2020-04-28"
-Rev "Rev C"
+Date "2021-02-17"
+Rev "Rev D"
 Comp "Devtank Ltd"
-Comment1 ""
+Comment1 "Part No: 304-001"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -189,7 +189,7 @@ F 4 "105-002" H 9150 10100 60  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+3V3_SATA_A #PWR0404
+L HILTOP_Motherboard-rescue:+3V3_SATA_A-Devtank #PWR0404
 U 1 1 5A99FBDC
 P 9150 9500
 F 0 "#PWR0404" H 9150 9350 50  0001 C CNN
@@ -200,7 +200,7 @@ F 3 "" H 9150 9500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+3V3_SATA_D #PWR0399
+L HILTOP_Motherboard-rescue:+3V3_SATA_D-Devtank #PWR0399
 U 1 1 5A9A0239
 P 6800 9500
 F 0 "#PWR0399" H 6800 9350 50  0001 C CNN
@@ -505,7 +505,7 @@ Wire Wire Line
 	2300 8100 2300 8000
 Connection ~ 2650 8000
 $Comp
-L Devtank:TUSB9261 U37
+L HILTOP_Motherboard-rescue:TUSB9261-Devtank U37
 U 1 1 5B3A08F6
 P 6050 4400
 F 0 "U37" H 4350 2675 50  0000 C CNN
@@ -776,7 +776,7 @@ Wire Wire Line
 Wire Wire Line
 	11175 4450 10925 4450
 $Comp
-L Devtank:+3V3_SATA_A #PWR0401
+L HILTOP_Motherboard-rescue:+3V3_SATA_A-Devtank #PWR0401
 U 1 1 5B3C4638
 P 7175 1550
 F 0 "#PWR0401" H 7175 1400 50  0001 C CNN
@@ -787,7 +787,7 @@ F 3 "" H 7175 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+3V3_SATA_D #PWR0396
+L HILTOP_Motherboard-rescue:+3V3_SATA_D-Devtank #PWR0396
 U 1 1 5B3C4AA8
 P 6125 1550
 F 0 "#PWR0396" H 6125 1400 50  0001 C CNN
@@ -889,7 +889,7 @@ Wire Wire Line
 	3725 5750 3725 5650
 Connection ~ 3725 5650
 $Comp
-L Devtank:+3V3_SATA_D #PWR0389
+L HILTOP_Motherboard-rescue:+3V3_SATA_D-Devtank #PWR0389
 U 1 1 5B3E4F01
 P 2775 5300
 F 0 "#PWR0389" H 2775 5150 50  0001 C CNN
@@ -1129,7 +1129,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 8000 7650 8000
 $Comp
-L Devtank:+1V1_SATA #PWR0397
+L HILTOP_Motherboard-rescue:+1V1_SATA-Devtank #PWR0397
 U 1 1 5B404D47
 P 6175 7700
 F 0 "#PWR0397" H 6175 7550 50  0001 C CNN
@@ -1140,7 +1140,7 @@ F 3 "" H 6175 7700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Devtank:+1V1_SATA #PWR0392
+L HILTOP_Motherboard-rescue:+1V1_SATA-Devtank #PWR0392
 U 1 1 5B406E18
 P 4825 1550
 F 0 "#PWR0392" H 4825 1400 50  0001 C CNN
