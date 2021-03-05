@@ -51,25 +51,27 @@ h) Expose unused USB channel 6 on USB2517 hub to vertical USB port on Motherboar
 
 i) Changed footprint for Y1 for a smaller package (5x3.2mm)
 
-Mods to Rev C
+Changes incorporated in Rev D:
 
-i) Remove R201
+1) Remove R201
 
-ii) Fit 10K 0603 to R202.
+2) Fit 10K 0603 to R202.
 
-iii) Cut track from R202 to 3.3V and re-route (mod wire) power to Vdd
+3) Cut track from R202 to 3.3V and re-route power to Vdd
 
-iv) Cut track from U40 (pin3) to +5V. Re-route to USB 5V power (pin 1) on J18
+4) Cut track from U40 (pin3) to +5V. Re-route to USB 5V power (pin 1) on J18
 
-Fixed alignment issue on Backplane connector. Move to the left 2mm.
+5) Fixed alignment issue on Backplane connector. Move to the left 2mm.
 
-To Do:
+6) Add TVS diodes to main Power rails, D52, D53, D67 & D69
 
-Add TVS diodes to main Power rails --Done update BOM
-Look at swap connectors for fans --done - update BOM
-look for replacement SD card ESD chip - removed - update BOM
-Add OHW license details - Done
-camera I/O move -TODO
+7) Swap connectors for fans, J21 & J23
+
+8) Remove SD card ESD chip (U46) due to parts shortage
+
+9) Update OHW license details
+
+10) Swap Crystal Y1 due to parts availability
 
 
 
