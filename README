@@ -1,9 +1,14 @@
-Copyright Devtank Ltd 2019.
+Copyright Devtank Ltd 2021.
 
-This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
-You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions
+This documentation describes Open Hardware and is Licensed under CERN-OHL-W v2.
 
-This folder contains HILTOP Motherboard hardware schematics and pcb layout files 
+You may redistribute and modify this documentation under the terms of the CERN-OHL-W v2 (https://cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2 for applicable conditions
+
+Source location: git@github.com:devtank-ltd/hiltop_motherboard.git 
+
+As per CERN-OHL-W v2 section 4.1, should You produce hardware based on these sources, You must maintain the   Source Location visible on the external case of the HILTOP or other product you make using this documentation.
+
+This folder contains HILTOP Motherboard hardware schematics, PCB layout and BOM files. 
 
 You will need Kicad to open hardware design files.
 
@@ -11,7 +16,7 @@ HILTOP Motherboards and other test and measurement products can be purchased dir
 
 Please contact:
 Tim Telford
-Technical Director - Devtank Ltd
-+44 (0)1335 818014
+CTO - Devtank Ltd
++44 (0)1332 650944
 
 
